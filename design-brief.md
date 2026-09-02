@@ -1,53 +1,61 @@
-# Design Brief: Book Chess Board
+# Design Brief
 
 ## Project Overview
-A fully functional chess board designed to look and open like a hardcover book — closed, it reads as a decorative book on a shelf; opened, the two halves fold flat to reveal an inlaid 64-square playing surface, hinged along the spine like a book's binding.
+A functional Chessboard that folds into a book that is able to be placed on a bookshelf. While closed the board looks like a book, and when open it opens into a board with the piece storage as the covers of the book. (Design still in progress | Subject to change)
 
 ## Target Audience
-Chess players and design/craft enthusiasts who want a board that doubles as a display piece — myself, first and foremost, as a personal project that reflects my interest in both chess and object design.
+Chess players and aesthetic lovers that want a board that doubles as a display piece.
 
 ## Objectives
-- Design and build a chess board that opens/closes on a concealed hinge, book-style.
-- Combine traditional woodworking with digital fabrication (laser cutting/CNC for squares, 3D printing for hinge prototyping/hardware).
-- Produce a finished object that is both a functional game board and a piece of craftsmanship worth displaying.
+- Develop a hinge
+- Design the aesthetics of the book cover
+- Design how to store the pieces
+- Design the pieces based on the size requirements of the storage and board
+- Figure how to assemble
+- Test and find things to fix
+- Improve
+- Final Output
 
 ## Scope of Work
-- Design and prototype a book-style hinge mechanism (tested in 3D-printed plastic before committing to the final wood + hardware version).
-- Design and fabricate a 64-square playing surface (inlay, engraving, or laser-cut contrast material).
-- Add alignment/registration detail at the center seam (divots with pins or magnets) so the board sits perfectly flat when open.
-- Finish and assemble the final board.
-- Note: does not include making the chess pieces themselves — scope is the board only.
+- Prototype and develop mechanism
+- Design and engrave 64 tile board
+- Design and build storage for pieces
+- Design and build Chess pieces
+- Assemble, test, and finish
 
 ## Constraints
-- Six-week timeline (course was shortened, so no separate research/skills unit — straight into the final project).
-- Limited to materials and machines available in the school workshop (laser cutter, 3D printer, and/or CNC router, hand tools).
-- Must remain structurally sound after repeated opening/closing (hinge durability).
-- No prior experience building a hinge mechanism like this — will need to prototype/test before committing to final materials.
+- 9 weeks for design
+  - 2 weeks for hinge design
+  - 2 weeks additional for cover design
+  - 1 week for storage and board design
+  - 3 weeks for piece and assembly
+  - 1 week for testing
+- Limited to school resources
 
 ## Inspiration
-Antique book-safes and hidden-storage books, travel chess sets, and the visual language of hardcover book binding (spine, cover boards, corners).
+NOTE THAT THE FINAL DESIGN WILL MOST LIKELY LOOK DIFFERENT or worse
 
 ## Design Requirements
-- Closed dimensions comparable to a large hardcover book (approx. 30–35cm tall when standing).
-- Opens flat to a standard 8x8 playing surface with usable square size for standard chess pieces (~3.5–4cm per square).
-- Hinge must allow a full flat 180° open position.
-- Center seam must not create a visible gap or misalignment in the playing surface when open.
-- Board must close and latch/stay shut without pieces falling out (if storage is included).
+- Board
+- Cover
+- Pieces
+- Hinge
+- Functionality
 
 ## Materials and Resources
-- Plywood or solid wood for the two board halves ("covers").
-- Contrasting veneer, stain, or laser-engraving for the light/dark squares.
-- 3D-printed PLA/PETG for hinge prototyping and possibly the final hinge knuckles.
-- Metal piano hinge (final hardware, inset into a routed mortise) — for durability, after 3D-printed prototype testing.
-- Small magnets or dowel pins for the center-seam alignment feature.
-- Wood glue, epoxy (for hinge bonding), sandpaper, and finish (varnish or oil).
+- ~~3D Printer~~
+- ~~Glue~~
+- Maybe Magnets?
+- Real hinges potentially?
+- ~~Wood (IF used)~~
+- ~~CNC~~
 
 ## Timeline
-- Week 1-2: Research and concept development.
-- Week 3: Finalising design and digital mockup.
-- Week 4: Manufacturing processes.
-- Week 5: Application of finish and assembly.
-- Week 6: Presentation of completed project.
+- 2 weeks for hinge design
+- 2 weeks additional for cover design
+- 1 week for storage and board design
+- 3 weeks for piece and assembly
+- 1 week for testing
 
 ## Evaluation Criteria
 - Creativity and originality of the design.
@@ -57,24 +65,25 @@ Antique book-safes and hidden-storage books, travel chess sets, and the visual l
 
 ## Success Criteria
 1. **Innovation and Creativity**
-   1. The design showcases originality, reflecting a unique perspective (chess + book form) and creativity.
-   2. The design effectively utilises 3D printing (hinge prototyping) and laser cutting/CNC (square inlay/engraving) to create features not achievable through hand tools alone.
+   1. The design showcases originality, reflecting unique perspective and creativity.
+   2. The design effectively utilises the capabilities of, for example, CNC routing or 3D printer or laser cutter to create patterns or features not possible through traditional handcrafting methods.
 2. **Adherence to Design Specifications**
-   1. The final product adheres to the specified dimensions and material requirements above.
-   2. The board opens fully flat with a functioning 64-square playing surface.
-   3. The hinge and alignment features function as designed.
+   1. The final product adheres to the specified dimensions and material requirements.
+   2.
+   3.
+   4.
 3. **Technical Execution**
-   1. The laser cutting/CNC, 3D printing, and hand craftsmanship are executed with precision — clean, crisp lines and no unintended marks or errors.
-   2. The hinge and inlay elements are appropriately scaled and positioned to maintain structural integrity of the board.
+   1. The CNC routing/laser cutting, 3D printing or hand craftsmanship is executed with precision, with clean, crisp lines and no unintended marks or errors.
+   2. The design elements are appropriately scaled and positioned to maintain the structural integrity of the product/project.
 4. **Finish Quality**
-   1. The finish is smooth, and varnish/oil is applied evenly, enhancing aesthetics and durability.
-   2. The final product is free of sharp edges, splinters, or defects that could impair usability or safety.
+   1. The finish is smooth, and the finish (varnish, paint, etc.) is applied evenly, enhancing the product/project's aesthetics and durability.
+   2. The final product is free of any sharp edges, splinters, or any other defects that could impair usability or safety.
 5. **Presentation**
-   1. Clear and engaging presentation of the design process, including concept development, challenges faced (e.g. figuring out the hinge mechanism from scratch), and how they were overcome.
-   2. The digital portfolio is well-organised, showing progression from initial brainstorm sketches to the final board, including notes on the hinge-prototyping and finishing process.
+   1. There is a clear and engaging presentation of their design process, including the concept development, challenges faced, and how they were overcome.
+   2. The digital portfolio is well-organised, showcasing the progression from initial sketches to the final CNC-routed design/laser cutting, 3D printing or hand craftsmanship including notes on the routing process and finishing techniques.
 6. **Functionality and Usability**
-   1. The final product is both a display piece and a fully functional chess board that can withstand regular use.
-   2. The book-form design does not interfere with the board's playability.
+   1. The final product not only serves as a piece of art but is also fully functional and can withstand the rigours of daily use.
+   2. The design does not interfere with the product's performance, ensuring a balance between aesthetic appeal and practical use.
 7. **Reflective Analysis**
-   1. The portfolio reflects on skills acquired (hinge design, inlay work, digital fabrication) and how they apply to future projects.
-   2. Constructive self-evaluation, including successes and areas for improvement — especially around the hinge mechanism, which was new territory going in.
+   1. The portfolio demonstrates an understanding of the project's learning outcomes, reflecting on the skills acquired and their application in future projects.
+   2. Constructive self-evaluation is provided, highlighting successes and areas for improvement.
