@@ -1,6 +1,8 @@
 # Design Technology Ideas — Brainstorm
 
-Transcribed from a handwritten brainstorm page (photo backup; original image not available to store as a file in this session).
+![Brainstorm page](../assets/brainstorm/dt-ideas-brainstorm.jpg)
+
+Transcribed from the handwritten brainstorm page above.
 
 ## Daily Problems?
 - Cable management?
