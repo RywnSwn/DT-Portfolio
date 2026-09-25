@@ -1,4 +1,4 @@
-# Design Technology Ideas — Brainstorm
+# Design Technology Ideas: Brainstorm
 
 ![Brainstorm page](../assets/brainstorm/dt-ideas-brainstorm.jpg)
 
@@ -8,7 +8,7 @@ Transcribed from the handwritten brainstorm page above.
 - Cable management?
 - Device holder?
 - Shirt folder?
-- Tissue holder under table (chronic sneezing from time — allergy trigger)
+- Tissue holder under table (chronic sneezing from time, allergy trigger)
 
 ## What do I wanna make?
 - Time capsule
@@ -30,7 +30,7 @@ Note: "fast folding clothes"
 
 ## Sketch: Tissue Holder Under Table
 A table with a tissue box/holder mounted underneath it.
-Note: "chronic sneezing from tone" (likely "time" — recurring allergy issue prompting this idea)
+Note: "chronic sneezing from tone" (likely "time", recurring allergy issue prompting this idea)
 
 ---
 Signed: Dennis
