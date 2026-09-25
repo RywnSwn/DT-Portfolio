@@ -20,6 +20,12 @@ Every file in the repo, what it holds and keywords to search for. Keep this up t
 | File | What it holds | Keywords |
 |---|---|---|
 | `process-log/hinge-test-1.md` | Print-in-place knuckle hinge test in Fusion 360, joint problems, next steps | hinge, fusion 360, revolute joint, tolerance, print |
+| `process-log/2026-09-25-cover-prototype-1.md` | First static book case prototype (redesign), photos, dimensions TBD | cover, case, slipcase, laser cut, living hinge, spine, redesign |
+
+## Side projects
+| File | What it holds | Keywords |
+|---|---|---|
+| `side-projects/trash-holder.md` | 3D printed trash holder bracket | trash, bracket, 3d print, side project |
 
 ## Brainstorms
 | File | What it holds | Keywords |
@@ -31,5 +37,7 @@ Every file in the repo, what it holds and keywords to search for. Keep this up t
 |---|---|
 | `assets/brainstorm/` | Photo of the brainstorm page |
 | `assets/hinge-test/` | Fusion 360 screenshot of Hinge Test 1 |
+| `assets/cover-prototype/` | Cover Prototype 1, 2 angles |
+| `assets/trash-holder/` | Trash holder side project, 2 photos |
 | `assets/phone-stand/` | Past project: 3D printed phone stand (4 angles) |
 | `assets/iphone-dummy/` | Past project: 3D printed iPhone 15 Pro dummy (4 angles) |

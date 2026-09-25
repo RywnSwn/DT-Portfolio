@@ -2,6 +2,12 @@
 
 Short record of each chat. Newest at the top. 2 to 5 bullets each.
 
+## 2026-09-25: Photos added
+- Added Cover Prototype 1 photos + process log (laser cut plywood, living hinge spine)
+- Board will have a built-in hinge
+- Added trash holder side project (3D printed bracket)
+- Cover measurements coming next
+
 ## 2026-09-25: Redesign logged
 - Redesign: static cover case, the folding board slides in
 - Cover prototype exists with accurate dimensions, no engraving or grooves

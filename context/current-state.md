@@ -5,7 +5,7 @@
 ## Project
 **Book Chess Board.** A chess board that looks like a hardcover book on a shelf.
 
-**Redesign (2026-09-25):** the book cover is now a **static case** (it doesn't open). The chess board folds in half and **slides into the case** like a book into a slipcase. The hinge is now on the board itself.
+**Redesign (2026-09-25):** the book cover is now a **static case** (it doesn't open). The chess board folds in half and **slides into the case** like a book into a slipcase. The board will have a **built-in hinge** (type TBD).
 
 ## Phase
 Design + early prototyping. A prototype of the cover case exists: the dimensions are accurate, but it has no engraving or grooves yet.
@@ -14,17 +14,18 @@ Design + early prototyping. A prototype of the cover case exists: the dimensions
 - Design brief written: `project/design-brief.md`
 - Predesign notes on hinge placement and board sizing: `project/predesign-notes.md`
 - Hinge Test 1 (print-in-place knuckle hinge in Fusion 360): `process-log/hinge-test-1.md`
-- Cover case prototype with accurate dimensions (plain, no engraving or grooves). Photos and exact numbers not in the repo yet.
+- Cover Prototype 1: laser cut plywood case with a living hinge spine, accurate dimensions, no engraving or grooves. Photos in `process-log/2026-09-25-cover-prototype-1.md`, measurements TBD.
 
 ## Key facts
 - Hinge: goes on the folding board now. The old plan was a mortised hinge between two covers, so check if it still fits the redesign.
 - Fold line: between columns 4 and 5, so each cover is 4 squares wide
 - Target closed size: about 30 to 35 cm tall, like a hardcover book
 - Time budget: 9 weeks total (2 hinge, 2 cover, 1 storage and board, 3 pieces and assembly, 1 testing)
-- Materials still open: magnets? real hinges? (3D printer, glue, wood and CNC are crossed out in the brief)
+- Cover is laser cut plywood, even though wood is crossed out in the design brief materials list (brief needs updating)
+- Materials still open: magnets? real hinges?
 
 ## Next steps
-1. Add cover prototype photos + measurements to the repo
+1. Add cover measurements to the repo
 2. Model the cover case in Fusion 360 from the measurements, then add engraving and grooves there
 3. Pick the square size, then work out board and cover dimensions
 4. Choose knuckle gap tolerance (0.2 to 0.4 mm per side) and print hinge test 2
@@ -35,5 +36,5 @@ Design + early prototyping. A prototype of the cover case exists: the dimensions
 - How much clearance between the folded board and the inside of the case so it slides smoothly?
 - Gaussian splat the cover? Suggested: not for the plain prototype. Maybe splat the finished piece for the portfolio website.
 - Square size? (drives every other dimension)
-- Real hinge hardware or printed hinge?
+- What kind of built-in hinge for the board? (living hinge like the spine? printed knuckle hinge?)
 - Design brief gaps: Success Criteria 2.2 to 2.4 and the Inspiration section are empty
