@@ -7,12 +7,19 @@
 ![Trash holder, part 2](../assets/trash-holder/part-2.jpg)
 
 ## What it is
-A 3D printed trash holder bracket in black filament. Not part of the chess board project.
+A desk-mounted trash holder for used tissues. I have a chronic runny nose, so I want a place right at my desk to put tissues.
+
+This grew out of the "tissue holder under table" idea in `brainstorms/2026-08-25-dt-ideas-brainstorm.md`.
+
+## How it works
+- **Clamp:** attaches to the desk edge and tightens on, like a microphone arm clamp. No screws into the desk.
+- **Holder (the printed part in the photos):** screws into the clamp through the round hole in the mounting tab.
 
 ## What the photos show
-- A long arm with a raised lip at the end
+- 3D printed in black filament
+- Mounting tab with the round hole where it screws into the clamp
 - A square flat pad on top near the base
-- A mounting tab with a screw hole, so it can be screwed to a desk or wall
+- A long arm with a raised lip at the end
 
 ## Notes
-TBD: how it mounts, what bag or bin it holds, and how well it works
+- TBD: what hangs on the arm (a small bag? a cup?), clamp details, how well it works

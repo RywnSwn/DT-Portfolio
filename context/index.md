@@ -25,7 +25,7 @@ Every file in the repo, what it holds and keywords to search for. Keep this up t
 ## Side projects
 | File | What it holds | Keywords |
 |---|---|---|
-| `side-projects/trash-holder.md` | 3D printed trash holder bracket | trash, bracket, 3d print, side project |
+| `side-projects/trash-holder.md` | Desk-clamp trash holder for used tissues (runny nose), printed holder screws into a mic-style clamp | trash, tissue, runny nose, clamp, desk, 3d print, side project |
 
 ## Brainstorms
 | File | What it holds | Keywords |

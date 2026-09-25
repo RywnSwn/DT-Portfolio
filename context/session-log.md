@@ -7,6 +7,7 @@ Short record of each chat. Newest at the top. 2 to 5 bullets each.
 - Board will have a built-in hinge
 - Added trash holder side project (3D printed bracket)
 - Cover measurements coming next
+- Trash holder explained: for used tissues (chronic runny nose), the printed holder screws into a mic-style desk clamp. Grew out of the tissue holder brainstorm idea.
 
 ## 2026-09-25: Redesign logged
 - Redesign: static cover case, the folding board slides in
