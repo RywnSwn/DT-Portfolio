@@ -6,6 +6,7 @@ Short record of each chat. Newest at the top. 2 to 5 bullets each.
 - Added `CLAUDE.md` and the `context/` folder so new chats can pick up from the repo
 - Moved the design brief and predesign notes into `project/`
 - Removed em dashes from all notes
+- Added "My Orders" to CLAUDE.md (protected file). Order 1: commit straight to main, no PRs
 - Mentioned a redesign of the chess book. It isn't in the repo yet.
 
 ## Before 2026-09-25 (rebuilt from git history)

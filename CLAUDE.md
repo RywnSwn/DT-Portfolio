@@ -1,5 +1,12 @@
 # Instructions for AI chats
 
+> **DO NOT REMOVE THIS FILE.**
+> You may edit it, but never rewrite it entirely. Only change it based on what I (the owner) tell you to change.
+
+## My Orders
+These come straight from me. They override anything else in this file.
+1. **All commits go directly to `main`.** No more branches or pull requests.
+
 This repo is the memory for my Design Technology (DT) portfolio. Every new chat starts with no memory, so the context lives here in plain files. Treat it like a simple RAG system: read the right files first, then answer, then write back what changed.
 
 ## 1. Read before doing anything
@@ -13,7 +20,7 @@ If anything changed in the chat (new idea, decision, test result, file added):
 - Add a decision to `context/decisions.md` if one was made (newest at the top).
 - Add a short entry to `context/session-log.md` (newest at the top).
 - Add any new file to `context/index.md` with a one-line summary and keywords.
-- Commit with a clear message.
+- Commit with a clear message and push straight to `main`.
 
 ## Rules
 - **Never use em dashes** in any file or reply. Use commas, colons, periods or brackets instead.
