@@ -2,12 +2,16 @@
 
 Short record of each chat. Newest at the top. 2 to 5 bullets each.
 
+## 2026-09-25: Redesign logged
+- Redesign: static cover case, the folding board slides in
+- Cover prototype exists with accurate dimensions, no engraving or grooves
+- Asked if the prototype is worth Gaussian splatting. Advice: not now, model it in Fusion. Splat the finished piece later for the website.
+
 ## 2026-09-25: Repo turned into a context system
 - Added `CLAUDE.md` and the `context/` folder so new chats can pick up from the repo
 - Moved the design brief and predesign notes into `project/`
 - Removed em dashes from all notes
 - Added "My Orders" to CLAUDE.md (protected file). Order 1: commit straight to main, no PRs
-- Mentioned a redesign of the chess book. It isn't in the repo yet.
 
 ## Before 2026-09-25 (rebuilt from git history)
 - Brainstorm of DT ideas (2026-08-25)

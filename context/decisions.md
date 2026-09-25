@@ -2,10 +2,13 @@
 
 Newest at the top. Each entry: what was decided, why, and where the details are.
 
-## Pending: Redesign of the chess book
-- A redesign exists but isn't documented yet. Add it here once it's in the repo.
+## Redesign: static cover case + sliding folding board (2026-09-25)
+- **What:** the cover is a fixed book-shaped case. The board folds and slides into it.
+- **Why:** the first version (covers that open into the board) was too advanced
+- **Knock-on effects:** the hinge moves to the board, and piece storage needs a new home
+- **Details:** `context/current-state.md`
 
-## Mortised (inside) hinge
+## Mortised (inside) hinge (from the first design, recheck after redesign)
 - **Why:** clean book-spine look, panels close flush, board can open flat to 180°
 - **Details:** `project/predesign-notes.md`
 
