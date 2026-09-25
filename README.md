@@ -13,6 +13,7 @@ CLAUDE.md          rules for AI chats + about me
 context/           current state, decisions, session log, file index
 project/           design brief and predesign notes
 process-log/       build and test notes, in order
+side-projects/     random projects outside the main one
 brainstorms/       early idea pages
 assets/            photos, one folder per topic
 ```
