@@ -2,6 +2,13 @@
 
 Short record of each chat. Newest at the top. 2 to 5 bullets each.
 
+## 2026-09-29: Trash holder design process written up
+- Answered design-cycle questions about the trash holder (problem, why a clamp, v1 vs v2, making, testing)
+- Version 1 (one clamp with a ring for a trash bag) was deleted halfway. Version 2 is two clamps with a tub in the middle, modular for different tables
+- One part printed, tub modeled, second clamp and 2 screws still to print, not tested yet
+- Updated `side-projects/trash-holder.md` and the Side Projects page
+- Plan: go through the other projects one by one the same way
+
 ## 2026-09-29: First website build
 - Built a first version of the portfolio site in `website/`: home, book chess board, side projects, past work, brainstorm
 - Plain HTML, CSS and JS on purpose, kept basic and a little amateur looking, no code comments
