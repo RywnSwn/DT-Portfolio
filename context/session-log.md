@@ -2,18 +2,13 @@
 
 Short record of each chat. Newest at the top. 2 to 5 bullets each.
 
-## 2026-09-29: Intro exercises writeup
-- User answered the short questions for the phone stand and name tag
-- Wrote `past-work/fusion-intro-exercises.md` and updated the Past Work page
-- Key lesson: cut-through letters (like A) leave floating parts with no support, so think about printing weak points, especially for the board hinge
-- Name tag screenshots were lost (files got messed up), phone stand specifics still TBD
-
-## 2026-09-29: Name tag and phone stand written up
+## 2026-09-29: Past work written up (name tag, phone stand, iPhone dummy)
 - Both intro items were set by the teacher
 - Name tag: extruded name, then a failed Chinese-style pattern (files got messed up, no screenshots), then poke-through letters
 - Lesson: the middle of letters like A fell out. Think about printer weak spots first, applies to the board hinge
 - iPhone dummy was downloaded, not designed. Printed for fun with the teacher's OK, who asked for it to be documented anyway
-- Added `past-work/name-tag.md` and a Name Tag section on the Past Work page. Phone stand written up too (tutorial, printed perfect first try, not much carried forward)
+- Phone stand: tutorial, printed perfect first try, not much carried forward. iPhone dummy printed accurately (real case fits)
+- One file per project in `past-work/`. Cleaned up a duplicate write-up (`fusion-intro-exercises.md`) that got added in parallel
 
 ## 2026-09-29: Phone stand and name tag are intro exercises
 - User said the phone stand and a name tag were introductory items to get used to Fusion 360

@@ -29,7 +29,6 @@ Design + early prototyping. A prototype of the cover case exists: the dimensions
 A first version of the portfolio site now exists in `website/`. Plain HTML, CSS and JS, no framework. Style is meant to look basic and a little amateur on purpose, with semantic HTML and accessibility (skip link, aria-current on nav, alt text on every image, labelled nav toggle) done properly underneath. Pulls in real content from `project/`, `process-log/`, `side-projects/` and `brainstorms/`. Not hosted yet.
 
 ## Lessons carried into the chess board
-- From the name tag: design with the printer's weak points in mind. Check for unsupported or floating parts, especially on the board hinge.
 
 ## Next steps
 1. Add cover measurements to the repo
@@ -39,7 +38,7 @@ A first version of the portfolio site now exists in `website/`. Plain HTML, CSS 
 5. Fill in the blanks in the design brief
 6. Turn on GitHub Pages for the website (repo settings, not something a chat session can do on its own)
 7. Keep the website pages updated as the project itself moves forward
-8. Writeups, one project at a time: trash holder is done. Next: phone stand, iPhone dummy, then the book chess board. The phone stand and a name tag were intro exercises to learn Fusion 360, so their writeups can be short (focus on what they taught). Intro exercise writeup is in `past-work/fusion-intro-exercises.md`. The name tag has no photos in the repo yet (files were lost). Ask the user the questions below, then update the project's notes file and its website page.
+8. Writeups: trash holder, name tag (`past-work/name-tag.md`), phone stand (`past-work/phone-stand.md`) and iPhone dummy (`past-work/iphone-dummy.md`) are done. Still needed: name tag photos, iPhone dummy model source and creator. Next writeup: the Book Chess Board.
 9. Trash holder: user prints the tub, second clamp and 2 screws next, then sends zipped photos and how the fit went
 
 ## Writeup questions (intro exercises: phone stand, name tag)

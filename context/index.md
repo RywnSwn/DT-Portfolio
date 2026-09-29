@@ -30,7 +30,6 @@ Every file in the repo, what it holds and keywords to search for. Keep this up t
 ## Past work
 | File | What it holds | Keywords |
 |---|---|---|
-| `past-work/fusion-intro-exercises.md` | Phone stand and name tag, intro Fusion 360 exercises, what they taught, printing lesson about unsupported parts | fusion 360, intro, name tag, phone stand, sketch, extrude, fillet, support, blender |
 
 ## Past work
 | File | What it holds | Keywords |
@@ -50,7 +49,7 @@ Every file in the repo, what it holds and keywords to search for. Keep this up t
 | `website/index.html` | Home page, links to every section | site, home, nav |
 | `website/book-chess-board.html` | Main project page: investigation, predesign, hinge test, redesign, cover prototype, open questions | site, chess board page |
 | `website/side-projects.html` | Trash holder writeup on the site | site, side projects page |
-| `website/past-work.html` | Phone stand and iPhone dummy on the site | site, past work page |
+| `website/past-work.html` | Phone stand, name tag and iPhone dummy on the site | site, past work page |
 | `website/brainstorm.html` | Brainstorm page on the site | site, brainstorm page |
 | `website/style.css` | Shared styling, plain and basic on purpose | site, css, style |
 | `website/script.js` | Small mobile nav toggle, nothing else | site, js, nav toggle |
