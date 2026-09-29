@@ -6,7 +6,9 @@ Short record of each chat. Newest at the top. 2 to 5 bullets each.
 - Idea came from a TikTok of board games that fold into books. User loves chess
 - First version was too hard: cover hinges plus board hinges, plus stopping the board over-folding
 - Chose the slide-in case because it stays faithful to the advanced version
-- Added `project/design-story.md` and a "Where the idea came from" section on the chess page. Questions 4 to 9 next
+- Added `project/design-story.md` and a "Where the idea came from" section on the chess page
+- User asked to skip the rest of the questions. Living hinge pattern was made by Mr Yetihad. Cover measured after making. Board still being modeled
+- Gaussian splat asked again: same advice, wait for the finished piece
 
 ## 2026-09-29: Past work written up (name tag, phone stand, iPhone dummy)
 - Both intro items were set by the teacher

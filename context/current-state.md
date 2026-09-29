@@ -14,7 +14,7 @@ Design + early prototyping. A prototype of the cover case exists: the dimensions
 - Design brief written: `project/design-brief.md`
 - Predesign notes on hinge placement and board sizing: `project/predesign-notes.md`
 - Hinge Test 1 (print-in-place knuckle hinge in Fusion 360): `process-log/hinge-test-1.md`
-- Cover Prototype 1: laser cut plywood case with a living hinge spine, accurate dimensions, no engraving or grooves. Photos in `process-log/2026-09-25-cover-prototype-1.md`, measurements TBD.
+- Cover Prototype 1: laser cut plywood case with a living hinge spine (flex pattern made by Mr Yetihad, the teacher), accurate dimensions, no engraving or grooves. Photos in `process-log/2026-09-25-cover-prototype-1.md`, measurements TBD.
 
 ## Key facts
 - Hinge: goes on the folding board now. The old plan was a mortised hinge between two covers, so check if it still fits the redesign.
@@ -38,7 +38,7 @@ A first version of the portfolio site now exists in `website/`. Plain HTML, CSS 
 5. Fill in the blanks in the design brief
 6. Turn on GitHub Pages for the website (repo settings, not something a chat session can do on its own)
 7. Keep the website pages updated as the project itself moves forward
-8. Writeups: trash holder, name tag (`past-work/name-tag.md`), phone stand (`past-work/phone-stand.md`) and iPhone dummy (`past-work/iphone-dummy.md`) are done. Still needed: name tag photos, iPhone dummy model source and creator. Book Chess Board writeup in progress: questions 1 to 3 answered (`project/design-story.md`), 4 to 9 next.
+8. Writeups: trash holder, name tag (`past-work/name-tag.md`), phone stand (`past-work/phone-stand.md`) and iPhone dummy (`past-work/iphone-dummy.md`) are done. Still needed: name tag photos, iPhone dummy model source and creator. Book Chess Board writeup: questions 1 to 6 roughly covered in `project/design-story.md`. User is tired of question lists, so stop quizzing. Pick details up naturally as the project moves.
 9. Trash holder: user prints the tub, second clamp and 2 screws next, then sends zipped photos and how the fit went
 
 ## Writeup questions (intro exercises: phone stand, name tag)

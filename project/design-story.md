@@ -17,5 +17,14 @@ My answers to the design cycle questions for the Book Chess Board. Filled in as 
 - It stays faithful to the more advanced version
 - I like the idea of a board that folds into a book
 
-## 4 to 9
-TBD (measuring, modeling, making, parts, using it, what I'd change)
+## 4. Measuring
+- Cover prototype: measured after it was made (numbers still TBD in the repo)
+
+## 5. Modeling
+- Board: still being modeled
+
+## 6. Making
+- Living hinge spine: the flex pattern was made by Mr Yetihad (teacher), which is what lets it bend
+
+## 7 to 9
+Skipped for now (user wants to move on). Fill in naturally as the project goes, don't quiz.
