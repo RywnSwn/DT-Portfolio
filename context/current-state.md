@@ -1,6 +1,6 @@
 # Current State
 
-**Last updated:** 2026-09-25
+**Last updated:** 2026-09-29
 
 ## Project
 **Book Chess Board.** A chess board that looks like a hardcover book on a shelf.
@@ -35,6 +35,20 @@ A first version of the portfolio site now exists in `website/`. Plain HTML, CSS 
 5. Fill in the blanks in the design brief
 6. Turn on GitHub Pages for the website (repo settings, not something a chat session can do on its own)
 7. Keep the website pages updated as the project itself moves forward
+8. Writeups, one project at a time: trash holder is done. Next: phone stand, iPhone dummy, then the book chess board. Ask the user the questions below, then update the project's notes file and its website page.
+9. Trash holder: user prints the tub, second clamp and 2 screws next, then sends zipped photos and how the fit went
+
+## Writeup questions (design cycle)
+Ask these for each project. Short answers are fine, gaps are fine.
+1. The problem: when did you notice you needed it?
+2. First idea: what did you picture first, did it change?
+3. Why this approach instead of others?
+4. Measuring: what did you measure first, or did you guess?
+5. Modeling: what software, roughly how long?
+6. Printing/making: did the first attempt work? anything break, not fit, sag?
+7. Parts: what was bought or reused vs made?
+8. Using it: does it work day to day? anything annoying?
+9. If you made it again: what would you change?
 
 ## Open questions
 - Where do the pieces go now that the cover doesn't open? (old plan: inside the covers)
