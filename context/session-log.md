@@ -2,6 +2,11 @@
 
 Short record of each chat. Newest at the top. 2 to 5 bullets each.
 
+## 2026-09-29: Phone stand and name tag are intro exercises
+- User said the phone stand and a name tag were introductory items to get used to Fusion 360
+- Noted it on the Past Work page and in current state
+- Name tag is not in the repo yet (no photos)
+
 ## 2026-09-29: Trash holder design process written up
 - Answered design-cycle questions about the trash holder (problem, why a clamp, v1 vs v2, making, testing)
 - Version 1 (one clamp with a ring for a trash bag) was deleted halfway. Version 2 is two clamps with a tub in the middle, modular for different tables

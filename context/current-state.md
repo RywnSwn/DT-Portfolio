@@ -35,7 +35,7 @@ A first version of the portfolio site now exists in `website/`. Plain HTML, CSS 
 5. Fill in the blanks in the design brief
 6. Turn on GitHub Pages for the website (repo settings, not something a chat session can do on its own)
 7. Keep the website pages updated as the project itself moves forward
-8. Writeups, one project at a time: trash holder is done. Next: phone stand, iPhone dummy, then the book chess board. Ask the user the questions below, then update the project's notes file and its website page.
+8. Writeups, one project at a time: trash holder is done. Next: phone stand, iPhone dummy, then the book chess board. The phone stand and a name tag were intro exercises to learn Fusion 360, so their writeups can be short (focus on what they taught). The name tag has no photos or notes in the repo yet. Ask the user the questions below, then update the project's notes file and its website page.
 9. Trash holder: user prints the tub, second clamp and 2 screws next, then sends zipped photos and how the fit went
 
 ## Writeup questions (design cycle)
