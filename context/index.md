@@ -32,6 +32,11 @@ Every file in the repo, what it holds and keywords to search for. Keep this up t
 |---|---|---|
 | `past-work/fusion-intro-exercises.md` | Phone stand and name tag, intro Fusion 360 exercises, what they taught, printing lesson about unsupported parts | fusion 360, intro, name tag, phone stand, sketch, extrude, fillet, support, blender |
 
+## Past work
+| File | What it holds | Keywords |
+|---|---|---|
+| `past-work/name-tag.md` | Intro Fusion 360 exercise: 3 versions, letter islands fell out, printer lesson | name tag, fusion basics, extrude, fillet, sketch, blender, poke through, islands |
+
 ## Brainstorms
 | File | What it holds | Keywords |
 |---|---|---|

@@ -23,6 +23,7 @@ Design + early prototyping. A prototype of the cover case exists: the dimensions
 - Time budget: 9 weeks total (2 hinge, 2 cover, 1 storage and board, 3 pieces and assembly, 1 testing)
 - Cover is laser cut plywood, even though wood is crossed out in the design brief materials list (brief needs updating)
 - Materials still open: magnets? real hinges?
+- Printing lesson from the name tag: check for parts that won't stick or will fuse before printing, especially the board hinge
 
 ## Website
 A first version of the portfolio site now exists in `website/`. Plain HTML, CSS and JS, no framework. Style is meant to look basic and a little amateur on purpose, with semantic HTML and accessibility (skip link, aria-current on nav, alt text on every image, labelled nav toggle) done properly underneath. Pulls in real content from `project/`, `process-log/`, `side-projects/` and `brainstorms/`. Not hosted yet.
@@ -40,6 +41,12 @@ A first version of the portfolio site now exists in `website/`. Plain HTML, CSS 
 7. Keep the website pages updated as the project itself moves forward
 8. Writeups, one project at a time: trash holder is done. Next: phone stand, iPhone dummy, then the book chess board. The phone stand and a name tag were intro exercises to learn Fusion 360, so their writeups can be short (focus on what they taught). Intro exercise writeup is in `past-work/fusion-intro-exercises.md`. The name tag has no photos in the repo yet (files were lost). Ask the user the questions below, then update the project's notes file and its website page.
 9. Trash holder: user prints the tub, second clamp and 2 screws next, then sends zipped photos and how the fit went
+
+## Writeup questions (intro exercises: phone stand, name tag)
+1. What did the teacher ask for?
+2. What Fusion 360 tools or skills did it teach?
+3. Did the first print come out right? What went wrong?
+4. What did you learn that you used later?
 
 ## Writeup questions (design cycle)
 Ask these for each project. Short answers are fine, gaps are fine.
