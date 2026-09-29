@@ -8,11 +8,11 @@ Short record of each chat. Newest at the top. 2 to 5 bullets each.
 - Key lesson: cut-through letters (like A) leave floating parts with no support, so think about printing weak points, especially for the board hinge
 - Name tag screenshots were lost (files got messed up), phone stand specifics still TBD
 
-## 2026-09-29: Name tag written up
+## 2026-09-29: Name tag and phone stand written up
 - Both intro items were set by the teacher
 - Name tag: extruded name, then a failed Chinese-style pattern (files got messed up, no screenshots), then poke-through letters
 - Lesson: the middle of letters like A fell out. Think about printer weak spots first, applies to the board hinge
-- Added `past-work/name-tag.md` and a Name Tag section on the Past Work page. Phone stand answers come next session
+- Added `past-work/name-tag.md` and a Name Tag section on the Past Work page. Phone stand written up too (tutorial, printed perfect first try, not much carried forward)
 
 ## 2026-09-29: Phone stand and name tag are intro exercises
 - User said the phone stand and a name tag were introductory items to get used to Fusion 360

@@ -35,6 +35,7 @@ Every file in the repo, what it holds and keywords to search for. Keep this up t
 ## Past work
 | File | What it holds | Keywords |
 |---|---|---|
+| `past-work/phone-stand.md` | Intro Fusion 360 exercise from a tutorial, printed fine first time | phone stand, tutorial, fusion basics, v cutout |
 | `past-work/name-tag.md` | Intro Fusion 360 exercise: 3 versions, letter islands fell out, printer lesson | name tag, fusion basics, extrude, fillet, sketch, blender, poke through, islands |
 
 ## Brainstorms
