@@ -14,6 +14,7 @@ Every file in the repo, what it holds and keywords to search for. Keep this up t
 | File | What it holds | Keywords |
 |---|---|---|
 | `project/design-brief.md` | Overview, audience, objectives, scope, constraints, timeline, success criteria | brief, rubric, criteria, timeline |
+| `project/design-story.md` | Design cycle writeup: TikTok inspiration, why the first version was too hard, why the slide-in case | story, inspiration, tiktok, why, love chess, writeup |
 | `project/predesign-notes.md` | Hinge placement, the gap problem, fold angle, how board size is worked out | hinge, mortise, gap, 180, dimensions, square size |
 
 ## Process log

@@ -38,7 +38,7 @@ A first version of the portfolio site now exists in `website/`. Plain HTML, CSS 
 5. Fill in the blanks in the design brief
 6. Turn on GitHub Pages for the website (repo settings, not something a chat session can do on its own)
 7. Keep the website pages updated as the project itself moves forward
-8. Writeups: trash holder, name tag (`past-work/name-tag.md`), phone stand (`past-work/phone-stand.md`) and iPhone dummy (`past-work/iphone-dummy.md`) are done. Still needed: name tag photos, iPhone dummy model source and creator. Next writeup: the Book Chess Board.
+8. Writeups: trash holder, name tag (`past-work/name-tag.md`), phone stand (`past-work/phone-stand.md`) and iPhone dummy (`past-work/iphone-dummy.md`) are done. Still needed: name tag photos, iPhone dummy model source and creator. Book Chess Board writeup in progress: questions 1 to 3 answered (`project/design-story.md`), 4 to 9 next.
 9. Trash holder: user prints the tub, second clamp and 2 screws next, then sends zipped photos and how the fit went
 
 ## Writeup questions (intro exercises: phone stand, name tag)
