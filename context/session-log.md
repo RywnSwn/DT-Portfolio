@@ -2,6 +2,12 @@
 
 Short record of each chat. Newest at the top. 2 to 5 bullets each.
 
+## 2026-09-29: Intro exercises writeup
+- User answered the short questions for the phone stand and name tag
+- Wrote `past-work/fusion-intro-exercises.md` and updated the Past Work page
+- Key lesson: cut-through letters (like A) leave floating parts with no support, so think about printing weak points, especially for the board hinge
+- Name tag screenshots were lost (files got messed up), phone stand specifics still TBD
+
 ## 2026-09-29: Phone stand and name tag are intro exercises
 - User said the phone stand and a name tag were introductory items to get used to Fusion 360
 - Noted it on the Past Work page and in current state
