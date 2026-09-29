@@ -22,4 +22,5 @@ This grew out of the "tissue holder under table" idea in `brainstorms/2026-08-25
 - A long arm with a raised lip at the end
 
 ## Notes
-- TBD: what hangs on the arm (a small bag? a cup?), clamp details, how well it works
+- A little tub holds the used tissues (how it attaches to the arm: TBD)
+- TBD: clamp details, how well it works, the design process behind it (idea came quickly, being written up after the fact)
