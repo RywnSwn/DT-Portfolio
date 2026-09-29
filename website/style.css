@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #faf6ef;
+  color: #2b2b2b;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.2;
+}
+
+a {
+  color: #6b2b2b;
+}
+
+a:hover, a:focus {
+  color: #8f3a3a;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: #fff;
+  color: #2b2b2b;
+  padding: 8px 12px;
+  border: 1px solid #2b2b2b;
+  z-index: 10;
+}
+
+.skip-link:focus {
+  left: 8px;
+  top: 8px;
+}
+
+header {
+  background: #2b2b2b;
+  color: #faf6ef;
+  padding: 16px;
+  border-bottom: 4px solid #6b2b2b;
+}
+
+.header-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+header a {
+  color: #faf6ef;
+}
+
+.site-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#nav-toggle {
+  background: #6b2b2b;
+  color: #faf6ef;
+  border: none;
+  padding: 6px 10px;
+  font-size: 1rem;
+  display: none;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a[aria-current="page"] {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px 60px;
+}
+
+article + article {
+  margin-top: 40px;
+  border-top: 2px dashed #ccc;
+  padding-top: 24px;
+}
+
+figure {
+  margin: 16px 0;
+}
+
+figure img {
+  max-width: 100%;
+  border: 1px solid #ccc;
+}
+
+figcaption {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 16px 0;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  text-align: left;
+}
+
+.status {
+  display: inline-block;
+  background: #eee;
+  border: 1px solid #999;
+  padding: 2px 8px;
+  font-size: 0.8rem;
+  border-radius: 3px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.gallery figure {
+  flex: 1 1 200px;
+  margin: 0;
+}
+
+footer {
+  background: #2b2b2b;
+  color: #ccc;
+  text-align: center;
+  padding: 16px;
+  font-size: 0.85rem;
+}
+
+footer a {
+  color: #faf6ef;
+}
+
+@media (max-width: 560px) {
+  #nav-toggle {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  nav.open ul {
+    display: flex;
+  }
+}

@@ -2,6 +2,13 @@
 
 Short record of each chat. Newest at the top. 2 to 5 bullets each.
 
+## 2026-09-29: First website build
+- Built a first version of the portfolio site in `website/`: home, book chess board, side projects, past work, brainstorm
+- Plain HTML, CSS and JS on purpose, kept basic and a little amateur looking, no code comments
+- Semantic HTML and accessibility done properly underneath: skip link, landmarks, alt text on every image, aria-current on nav, labelled nav toggle
+- Not hosted yet, GitHub Pages needs to be turned on in repo settings
+- Also drafted a separate multi-session skill idea (splitting state per workstream) but did not apply it, since the existing `context/` system already works and adding more structure was not worth the overhead right now
+
 ## 2026-09-25: Photos added
 - Added Cover Prototype 1 photos + process log (laser cut plywood, living hinge spine)
 - Board will have a built-in hinge

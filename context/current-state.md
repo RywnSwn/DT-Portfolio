@@ -24,12 +24,17 @@ Design + early prototyping. A prototype of the cover case exists: the dimensions
 - Cover is laser cut plywood, even though wood is crossed out in the design brief materials list (brief needs updating)
 - Materials still open: magnets? real hinges?
 
+## Website
+A first version of the portfolio site now exists in `website/`. Plain HTML, CSS and JS, no framework. Style is meant to look basic and a little amateur on purpose, with semantic HTML and accessibility (skip link, aria-current on nav, alt text on every image, labelled nav toggle) done properly underneath. Pulls in real content from `project/`, `process-log/`, `side-projects/` and `brainstorms/`. Not hosted yet.
+
 ## Next steps
 1. Add cover measurements to the repo
 2. Model the cover case in Fusion 360 from the measurements, then add engraving and grooves there
 3. Pick the square size, then work out board and cover dimensions
 4. Choose knuckle gap tolerance (0.2 to 0.4 mm per side) and print hinge test 2
 5. Fill in the blanks in the design brief
+6. Turn on GitHub Pages for the website (repo settings, not something a chat session can do on its own)
+7. Keep the website pages updated as the project itself moves forward
 
 ## Open questions
 - Where do the pieces go now that the cover doesn't open? (old plan: inside the covers)
