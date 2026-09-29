@@ -21,4 +21,3 @@ Teacher-set exercise to get used to Fusion 360. Done before the Book Chess Board
 ## Lesson I carried forward
 - Think about what the 3D printer is bad at before printing, not after
 - Applies to the Book Chess Board: the print-in-place hinge must be designed so the parts don't fuse together
-- Also fed into the trash holder (TBD: which part exactly)
