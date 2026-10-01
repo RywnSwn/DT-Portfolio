@@ -1,6 +1,6 @@
 # Phone Stand (intro exercise)
 
-Teacher-set exercise to get used to Fusion 360. Made by following a tutorial. Photos: `../assets/phone-stand/` (4 angles).
+Teacher-set exercise to get used to Fusion 360. Made by following a tutorial. Photos: `../../sources/images/phone-stand/` (4 angles).
 
 ## Notes
 - Used about the same Fusion tools as the name tag (sketch, extrude, fillets)

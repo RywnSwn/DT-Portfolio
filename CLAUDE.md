@@ -7,30 +7,20 @@
 These come straight from me. They override anything else in this file.
 1. **All commits go directly to `main`.** No more branches or pull requests.
 
-This repo is the memory for my Design Technology (DT) portfolio. Every new chat starts with no memory, so the context lives here in plain files. Treat it like a simple RAG system: read the right files first, then answer, then write back what changed.
+This repo is the memory for my Design Technology (DT) portfolio. It uses the **project-rag** layout. Every new chat starts with no memory, so read the files first.
 
-## 1. Read before doing anything
-1. `context/current-state.md`: where the project is right now. Always read this.
-2. `context/index.md`: map of every file with keywords. Use it to find and read only the files you need for the task.
-3. `context/session-log.md`: skim the last few entries to see what happened recently.
+New rules and preferences go in `RULES.md` as a dated line, not in this file.
 
-## 2. Write back before the chat ends
-If anything changed in the chat (new idea, decision, test result, file added):
-- Update `context/current-state.md` so it stays true. Replace old info, don't pile it on.
-- Add a decision to `context/decisions.md` if one was made (newest at the top).
-- Add a short entry to `context/session-log.md` (newest at the top).
-- Add any new file to `context/index.md` with a one-line summary and keywords.
-- Commit with a clear message and push straight to `main`.
+## Every session
+1. `git pull origin main`
+2. Read `RULES.md`, `STATE.md`, and the newest ~5 entries of `LOG.md`.
+3. Open files in `sources/` or `work/` only when the task needs them.
+4. Before the chat ends: rewrite `STATE.md`, add one entry to the top of `LOG.md`, update `IDEAS.md` tags, commit and push to `main`.
 
-## Rules
-- **Never use em dashes** in any file or reply. Use commas, colons, periods or brackets instead.
-- Keep writing short and plain. Bullet points over long paragraphs.
-- Don't invent measurements, decisions or results. If something is unknown, write "TBD" or put it in Open questions.
-- Photos go in `assets/<topic>/`. Notes that show a photo link to it with a relative path.
-- File names: lowercase with hyphens. Dated notes start with `YYYY-MM-DD-`.
-
-## About me
-- Student at ISY (International School Yangon), Myanmar, starting 9th grade
-- DT class, final project is the Book Chess Board
-- Tools I use: Fusion 360, 3D printing, school workshop resources
-- I like random side projects and making lots of kinds of files
+## Layout
+- `RULES.md`: how I want Claude to work, plus about me
+- `STATE.md`: where things stand now (overwritten each session)
+- `LOG.md`: one short entry per session, newest at top
+- `IDEAS.md`: ideas tagged open / trying / kept / dropped
+- `sources/`: design brief, predesign notes, brainstorm, photos (`sources/images/`)
+- `work/`: chess board writeups, side projects, past work, website

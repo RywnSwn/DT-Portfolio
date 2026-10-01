@@ -1,0 +1,25 @@
+# Log
+
+One short entry per session. Newest at the top. Only add, never rewrite old entries.
+
+## 2026-10-01
+- Did: switched the repo to the project-rag layout. `context/` became `RULES.md`, `STATE.md`, `LOG.md`, `IDEAS.md`. Brief, predesign notes, brainstorm and photos moved to `sources/`. Writeups and website moved to `work/`. All links fixed
+- Decided: decisions now live in LOG entries ("Decided:") and IDEAS tags, no separate decisions file
+- Next: cover measurements
+
+## 2026-09-29
+- Did: Book Chess Board design story started (`work/chess-board/design-story.md`). Idea came from a TikTok of board games that fold into books. Living hinge pattern made by Mr Yetihad
+- Did: wrote up past work (name tag, phone stand, iPhone dummy) and the trash holder design process (v1 to v2)
+- Did: built website v1 (plain HTML/CSS/JS), not hosted yet
+- Decided: website stays basic and a little amateur on purpose, accessibility done properly. Host on GitHub Pages, not Google Sites. Stop quizzing with question lists
+- Next: cover measurements, board model, print trash holder parts
+
+## 2026-09-25
+- Did: turned the repo into a context system, added cover prototype and trash holder photos
+- Decided: redesign. Cover is now a static case and the folding board slides in (first version was too advanced). Board gets a built-in hinge
+- Decided: all commits straight to `main`, `CLAUDE.md` is protected
+- Next: cover measurements
+
+## Before 2026-09-25 (rebuilt from git history)
+- Did: brainstorm (2026-08-25), design brief, predesign notes, Hinge Test 1, past project photos
+- Decided: Book Chess Board as final project. Mortised hinge for a flush book spine. Fold line between columns 4 and 5

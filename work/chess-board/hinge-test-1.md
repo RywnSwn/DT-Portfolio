@@ -3,7 +3,7 @@
 **File:** `Hinge Test` (Fusion 360)
 **Status:** Just a test, not the final hinge design.
 
-![Hinge test in Fusion 360](../assets/hinge-test/hinge-test-1-fusion.jpg)
+![Hinge test in Fusion 360](../../sources/images/hinge-test/hinge-test-1-fusion.jpg)
 
 ## What it is
 A print-in-place style hinge: two flat base plates, each with three interlocking cylindrical knuckles, alternating (plate A - plate B - plate A pattern), with a rod running through all the knuckles as the pivot axis. Built to test the knuckle/gap geometry before committing to a real hinge design for the book chess board.

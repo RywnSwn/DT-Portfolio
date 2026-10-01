@@ -2,21 +2,18 @@
 
 Design Technology coursework and portfolio backup (ISY, Grade 9).
 
-**Current final project: Book Chess Board.** A chess board that folds into a book shape so it can sit on a bookshelf, and opens flat into a playing board with piece storage in the covers.
+**Final project: Book Chess Board.** A chess board that folds in half and slides into a static case shaped like a hardcover book, so it can sit on a bookshelf.
 
 ## Starting a new AI chat?
-Read `CLAUDE.md` first, then `context/current-state.md`. That's everything needed to pick up where the last chat stopped.
+Read `CLAUDE.md`, then `RULES.md`, `STATE.md` and the top of `LOG.md`.
 
 ## Layout
 ```
-CLAUDE.md          rules for AI chats + about me
-context/           current state, decisions, session log, file index
-project/           design brief and predesign notes
-process-log/       build and test notes, in order
-side-projects/     random projects outside the main one
-brainstorms/       early idea pages
-assets/            photos, one folder per topic
+CLAUDE.md     protected pointer file for AI chats
+RULES.md      how Claude should work + about me
+STATE.md      where the project is right now
+LOG.md        one entry per session, newest first
+IDEAS.md      ideas tagged open / trying / kept / dropped
+sources/      design brief, predesign notes, brainstorm, photos
+work/         chess board writeups, side projects, past work, website
 ```
-
-## Later
-This is the working backup and log. A GitHub Pages site for the teacher-facing portfolio will be built from this content later.

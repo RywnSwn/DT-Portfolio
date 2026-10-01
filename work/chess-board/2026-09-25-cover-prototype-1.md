@@ -3,8 +3,8 @@
 **Date:** 2026-09-25
 **Status:** Prototype. Dimensions are accurate, no engraving or grooves yet.
 
-![Cover prototype, spine side](../assets/cover-prototype/angle-1.jpg)
-![Cover prototype, front](../assets/cover-prototype/angle-2.jpg)
+![Cover prototype, spine side](../../sources/images/cover-prototype/angle-1.jpg)
+![Cover prototype, front](../../sources/images/cover-prototype/angle-2.jpg)
 
 ## What it is
 The first physical version of the redesigned cover. The cover is now a static case shaped like a hardcover book, and the folding chess board slides into it.

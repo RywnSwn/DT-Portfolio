@@ -4,15 +4,15 @@
 **Last updated:** 2026-09-29
 **Status:** Version 2 in progress. One part printed, tub modeled, not assembled or tested yet.
 
-![Trash holder, part 1](../assets/trash-holder/part-1.jpg)
-![Trash holder, part 2](../assets/trash-holder/part-2.jpg)
+![Trash holder, part 1](../../sources/images/trash-holder/part-1.jpg)
+![Trash holder, part 2](../../sources/images/trash-holder/part-2.jpg)
 
 ## The problem
 - My nose runs and I sneeze all the time, and it has been like that my whole life
 - Used tissues end up in a pile next to me on the desk
 - I want somewhere right at my desk to put them
 
-This grew out of the "tissue holder under table" idea in `brainstorms/2026-08-25-dt-ideas-brainstorm.md`.
+This grew out of the "tissue holder under table" idea in `sources/brainstorm-2026-08-25.md`.
 
 ## Why a clamp
 - Tape: easy to move, but it gets weak over time
