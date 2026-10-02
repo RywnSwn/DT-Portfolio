@@ -17,6 +17,7 @@ Tags: [open] not tried, [trying] in progress, [kept] now part of the project, [d
 
 ## Side projects
 - [trying] Trash holder v2: two desk clamps with a tub in the middle, modular for different tables (`work/side-projects/trash-holder.md`)
+- [kept] Bear Fix: fixed a classmate's toy model in Blender, 86,730 down to 3,356 triangles (`work/side-projects/bear-fix.md`)
 
 ## Archive
 - [dropped] Book with opening covers and the board inside: too advanced (cover hinges plus board hinges plus stopping over-folding) (2026-09-25)

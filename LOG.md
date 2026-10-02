@@ -2,6 +2,10 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-10-02 (2)
+- Did: logged helping a classmate fix a bear toy model in Blender. Before/after screenshots and both STL files saved, writeup in `work/side-projects/bear-fix.md`
+- Next: add the Blender steps used and the classmate's name if they want credit. Then cover measurements
+
 ## 2026-10-02
 - Did: added GitHub Actions workflow `.github/workflows/pages.yml` that publishes `work/website` to GitHub Pages on every push to `main`
 - Decided: deploy with the Actions source (not "deploy from branch") because the site lives in a subfolder
