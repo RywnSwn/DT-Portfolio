@@ -2,6 +2,11 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-10-02
+- Did: added GitHub Actions workflow `.github/workflows/pages.yml` that publishes `work/website` to GitHub Pages on every push to `main`
+- Decided: deploy with the Actions source (not "deploy from branch") because the site lives in a subfolder
+- Next: set Settings > Pages > Source to GitHub Actions, check the live site, then cover measurements
+
 ## 2026-10-01
 - Did: switched the repo to the project-rag layout. `context/` became `RULES.md`, `STATE.md`, `LOG.md`, `IDEAS.md`. Brief, predesign notes, brainstorm and photos moved to `sources/`. Writeups and website moved to `work/`. All links fixed
 - Decided: decisions now live in LOG entries ("Decided:") and IDEAS tags, no separate decisions file

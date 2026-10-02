@@ -1,4 +1,4 @@
-# State (updated 2026-10-01)
+# State (updated 2026-10-02)
 
 ## Goal
 Book Chess Board for DT: a chess board that folds in half and slides into a static case shaped like a hardcover book, so it sits on a bookshelf. Plus a portfolio website (GitHub Pages) showing the whole design process.
@@ -12,7 +12,7 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 - Board: being modeled in Fusion. Built-in hinge, type TBD. Fold between columns 4 and 5
 - Hinge Test 1 done (print-in-place knuckle hinge), live joint sim didn't work (`work/chess-board/hinge-test-1.md`)
 - Design story writeup roughly covers steps 1 to 6 (`work/chess-board/design-story.md`)
-- Website v1 in `work/website/`, not hosted yet
+- Website v1 in `work/website/`. Deploy workflow added (`.github/workflows/pages.yml`), needs Settings > Pages > Source set to GitHub Actions, then it goes live at rywnswn.github.io/DT-Portfolio
 - Side project: trash holder for used tissues. One clamp printed, tub modeled, second clamp + 2 screws still to print (`work/side-projects/trash-holder.md`)
 - Past work written up: phone stand, name tag, iPhone dummy (`work/past-work/`)
 
