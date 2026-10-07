@@ -19,6 +19,7 @@
 - Remeshed it in Blender because I thought it would look better a little less poly
 - Tried subdividing afterwards, but it looked terrible
 - Could have sculpted it smooth instead, but that was a lot of work for a favour, so I skipped it
+- Next time: subdivide, sculpt it smooth, then decimate again to bring the poly count back down
 
 ## Files
 - `bear-fix/trash-toy-before.stl`: the original from my classmate
@@ -26,5 +27,5 @@
 
 ## TBD
 - Exactly what was wrong with the original for their print (my guess from the screenshot: file too heavy plus the artifact)
-- Exact remesh settings
+- Exact setting and modifier: I think 0.25, but I don't remember if it was Decimate or Remesh
 - Classmate's name, if they want to be credited
