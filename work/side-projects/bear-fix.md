@@ -14,11 +14,17 @@
 - Before: very detailed mesh, 86,730 triangles, 4.3 MB file. Had a weird flat artifact (stray shape) attached to the raised hand
 - After: simplified low poly mesh, 3,356 triangles, 168 KB file. I removed the artifact connected to the hand and the bear is still recognisable
 
+## How I did it
+- Removed the artifact connected to the hand
+- Remeshed it in Blender because I thought it would look better a little less poly
+- Tried subdividing afterwards, but it looked terrible
+- Could have sculpted it smooth instead, but that was a lot of work for a favour, so I skipped it
+
 ## Files
 - `bear-fix/trash-toy-before.stl`: the original from my classmate
 - `bear-fix/trash-toy-fixed.stl`: my fixed version
 
 ## TBD
 - Exactly what was wrong with the original for their print (my guess from the screenshot: file too heavy plus the artifact)
-- Which Blender steps I used (decimate or remesh, how the artifact was removed (I removed it myself, steps not noted yet))
+- Exact remesh settings
 - Classmate's name, if they want to be credited
