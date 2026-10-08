@@ -4,16 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home | DT Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700;800&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
-<header>
+<header class="site-header">
   <div class="header-inner">
-    <a class="site-title" href="index.html">DT Portfolio</a>
+    <a class="site-title" href="index.html">DT <span>Portfolio</span></a>
     <button id="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <nav id="site-nav" aria-label="Main navigation">
-      <ul>
+      <ul class="shelf">
         <li><a href="index.html" aria-current="page">Home</a></li>
         <li><a href="book-chess-board.html">Book Chess Board</a></li>
         <li><a href="side-projects.html">Side Projects</a></li>
@@ -23,37 +26,66 @@
     </nav>
   </div>
 </header>
+<div class="checker-strip" aria-hidden="true"></div>
 
 <main id="main-content">
-  <h1>Design Technology Portfolio</h1>
-  <p>
-    This is my DT portfolio. My final project is a chess board that folds
-    like a book. It is still being designed and built, so a lot of this
-    is a work in progress rather than a finished thing.
-  </p>
+  <div class="hero">
+    <div class="hero-text">
+      <p class="hero-kicker">ISY Design Technology</p>
+      <h1>Design Technology Portfolio</h1>
+      <p>
+        This is my DT portfolio. My final project is a chess board that folds
+        like a book. It is still being designed and built, so a lot of this
+        is a work in progress rather than a finished thing.
+      </p>
+    </div>
+    <div class="chess-book" aria-hidden="true">
+      <div class="book-pages"></div>
+      <div class="book-board">
+        <div class="pawn"></div>
+      </div>
+      <div class="book-cover">
+        <span class="cover-title">Chess</span>
+        <span class="cover-line"></span>
+        <span class="cover-sub">a board that folds into a book</span>
+      </div>
+    </div>
+  </div>
 
   <h2>Where to look</h2>
-  <ul>
+  <ul class="covers">
     <li>
-      <a href="book-chess-board.html">Book Chess Board</a>: the final
-      project. Design brief, predesign notes, hinge testing and the
-      cover prototype so far.
+      <a class="cover-card" href="book-chess-board.html">
+        <span class="chapter">Chapter 1</span>
+        <span class="card-title">Book Chess Board</span>
+        <span class="card-text">The final project. Design brief, predesign notes, hinge testing and the cover prototype so far.</span>
+      </a>
     </li>
     <li>
-      <a href="side-projects.html">Side Projects</a>: smaller things I
-      made along the way, like a desk-clamp trash holder.
+      <a class="cover-card" href="side-projects.html">
+        <span class="chapter">Chapter 2</span>
+        <span class="card-title">Side Projects</span>
+        <span class="card-text">Smaller things I made along the way, like a desk-clamp trash holder.</span>
+      </a>
     </li>
     <li>
-      <a href="past-work.html">Past Work</a>: earlier 3D prints, before
-      this project started.
+      <a class="cover-card" href="past-work.html">
+        <span class="chapter">Chapter 3</span>
+        <span class="card-title">Past Work</span>
+        <span class="card-text">Earlier 3D prints, before this project started.</span>
+      </a>
     </li>
     <li>
-      <a href="brainstorm.html">Brainstorm</a>: the original page of
-      ideas before I landed on the chess board.
+      <a class="cover-card" href="brainstorm.html">
+        <span class="chapter">Chapter 4</span>
+        <span class="card-title">Brainstorm</span>
+        <span class="card-text">The original page of ideas before I landed on the chess board.</span>
+      </a>
     </li>
   </ul>
 </main>
 
+<div class="checker-strip" aria-hidden="true"></div>
 <footer>
   <p>DT Portfolio. Built and maintained in <a href="https://github.com/RywnSwn/DT-Portfolio">this GitHub repo</a>.</p>
 </footer>

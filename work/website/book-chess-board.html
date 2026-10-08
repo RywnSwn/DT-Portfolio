@@ -4,16 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Book Chess Board | DT Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700;800&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
-<header>
+<header class="site-header">
   <div class="header-inner">
-    <a class="site-title" href="index.html">DT Portfolio</a>
+    <a class="site-title" href="index.html">DT <span>Portfolio</span></a>
     <button id="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <nav id="site-nav" aria-label="Main navigation">
-      <ul>
+      <ul class="shelf">
         <li><a href="index.html">Home</a></li>
         <li><a href="book-chess-board.html" aria-current="page">Book Chess Board</a></li>
         <li><a href="side-projects.html">Side Projects</a></li>
@@ -23,6 +26,7 @@
     </nav>
   </div>
 </header>
+<div class="checker-strip" aria-hidden="true"></div>
 
 <main id="main-content">
   <h1>Book Chess Board <span class="status">In progress</span></h1>
@@ -32,6 +36,37 @@
     real progress so far, not a finished write-up, so some parts still
     say TBD.
   </p>
+
+  <section class="plan" aria-labelledby="plan-title">
+    <h2 id="plan-title">The 9 week plan</h2>
+    <ol class="timeline">
+      <li class="started" style="--weeks: 2">
+        <span class="phase">Hinge</span>
+        <span class="weeks">2 weeks</span>
+        <span class="phase-status">Started: Hinge Test 1 done</span>
+      </li>
+      <li class="started" style="--weeks: 2">
+        <span class="phase">Cover</span>
+        <span class="weeks">2 weeks</span>
+        <span class="phase-status">Started: Prototype 1 done</span>
+      </li>
+      <li style="--weeks: 1">
+        <span class="phase">Storage and board</span>
+        <span class="weeks">1 week</span>
+        <span class="phase-status">Not started</span>
+      </li>
+      <li style="--weeks: 3">
+        <span class="phase">Pieces and assembly</span>
+        <span class="weeks">3 weeks</span>
+        <span class="phase-status">Not started</span>
+      </li>
+      <li style="--weeks: 1">
+        <span class="phase">Testing</span>
+        <span class="weeks">1 week</span>
+        <span class="phase-status">Not started</span>
+      </li>
+    </ol>
+  </section>
 
   <article>
     <h2>Where the idea came from</h2>
@@ -116,7 +151,7 @@
       360, before committing to a real hinge design.
     </p>
     <figure>
-      <img src="../../sources/images/hinge-test/hinge-test-1-fusion.jpg" alt="Screenshot of a print-in-place knuckle hinge model in Fusion 360, showing interlocking cylindrical knuckles and a pivot rod on two flat base plates.">
+      <img src="images/hinge-test/hinge-test-1-fusion.jpg" alt="Screenshot of a print-in-place knuckle hinge model in Fusion 360, showing interlocking cylindrical knuckles and a pivot rod on two flat base plates.">
       <figcaption>Hinge Test 1 in Fusion 360</figcaption>
     </figure>
     <p>
@@ -166,11 +201,11 @@
     <p><span class="status">Dimensions accurate, no engraving or grooves yet</span></p>
     <div class="gallery">
       <figure>
-        <img src="../../sources/images/cover-prototype/angle-1.jpg" alt="Laser cut plywood book case prototype, spine side, showing the curved living-hinge spine.">
+        <img src="images/cover-prototype/angle-1.jpg" alt="Laser cut plywood book case prototype, spine side, showing the curved living-hinge spine.">
         <figcaption>Spine side</figcaption>
       </figure>
       <figure>
-        <img src="../../sources/images/cover-prototype/angle-2.jpg" alt="Laser cut plywood book case prototype, front cover with rounded corners.">
+        <img src="images/cover-prototype/angle-2.jpg" alt="Laser cut plywood book case prototype, front cover with rounded corners.">
         <figcaption>Front cover</figcaption>
       </figure>
     </div>
@@ -220,6 +255,7 @@
   </article>
 </main>
 
+<div class="checker-strip" aria-hidden="true"></div>
 <footer>
   <p>DT Portfolio. Built and maintained in <a href="https://github.com/RywnSwn/DT-Portfolio">this GitHub repo</a>.</p>
 </footer>

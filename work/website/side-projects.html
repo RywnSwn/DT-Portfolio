@@ -4,16 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Side Projects | DT Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700;800&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
-<header>
+<header class="site-header">
   <div class="header-inner">
-    <a class="site-title" href="index.html">DT Portfolio</a>
+    <a class="site-title" href="index.html">DT <span>Portfolio</span></a>
     <button id="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <nav id="site-nav" aria-label="Main navigation">
-      <ul>
+      <ul class="shelf">
         <li><a href="index.html">Home</a></li>
         <li><a href="book-chess-board.html">Book Chess Board</a></li>
         <li><a href="side-projects.html" aria-current="page">Side Projects</a></li>
@@ -23,6 +26,7 @@
     </nav>
   </div>
 </header>
+<div class="checker-strip" aria-hidden="true"></div>
 
 <main id="main-content">
   <h1>Side Projects</h1>
@@ -76,11 +80,11 @@
 
     <div class="gallery">
       <figure>
-        <img src="../../sources/images/trash-holder/part-1.jpg" alt="3D printed trash holder part, black filament, showing the mounting tab and arm.">
+        <img src="images/trash-holder/part-1.jpg" alt="3D printed trash holder part, black filament, showing the mounting tab and arm.">
         <figcaption>Printed part, angle 1</figcaption>
       </figure>
       <figure>
-        <img src="../../sources/images/trash-holder/part-2.jpg" alt="3D printed trash holder part, black filament, showing the raised lip at the end of the arm.">
+        <img src="images/trash-holder/part-2.jpg" alt="3D printed trash holder part, black filament, showing the raised lip at the end of the arm.">
         <figcaption>Printed part, angle 2</figcaption>
       </figure>
     </div>
@@ -102,6 +106,7 @@
   </article>
 </main>
 
+<div class="checker-strip" aria-hidden="true"></div>
 <footer>
   <p>DT Portfolio. Built and maintained in <a href="https://github.com/RywnSwn/DT-Portfolio">this GitHub repo</a>.</p>
 </footer>

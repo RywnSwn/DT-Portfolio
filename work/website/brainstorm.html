@@ -4,16 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Brainstorm | DT Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700;800&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
-<header>
+<header class="site-header">
   <div class="header-inner">
-    <a class="site-title" href="index.html">DT Portfolio</a>
+    <a class="site-title" href="index.html">DT <span>Portfolio</span></a>
     <button id="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <nav id="site-nav" aria-label="Main navigation">
-      <ul>
+      <ul class="shelf">
         <li><a href="index.html">Home</a></li>
         <li><a href="book-chess-board.html">Book Chess Board</a></li>
         <li><a href="side-projects.html">Side Projects</a></li>
@@ -23,16 +26,19 @@
     </nav>
   </div>
 </header>
+<div class="checker-strip" aria-hidden="true"></div>
 
 <main id="main-content">
   <h1>Brainstorm</h1>
   <p>The original page of ideas, from before I picked the book chess board as the final project.</p>
 
+  <div class="brainstorm">
   <figure>
-    <img src="../../sources/images/brainstorm/dt-ideas-brainstorm.jpg" alt="Handwritten brainstorm page titled Design Technology Ideas, with two columns: Daily Problems and What do I wanna make, plus sketches of a charging dock, a shirt folding method and a tissue holder under a table.">
+    <img src="images/brainstorm/dt-ideas-brainstorm.jpg" alt="Handwritten brainstorm page titled Design Technology Ideas, with two columns: Daily Problems and What do I wanna make, plus sketches of a charging dock, a shirt folding method and a tissue holder under a table.">
     <figcaption>Original handwritten brainstorm page</figcaption>
   </figure>
 
+  <article>
   <h2>Daily problems</h2>
   <ul>
     <li>Cable management</li>
@@ -55,8 +61,11 @@
   </ul>
 
   <p>Ended up picking the <a href="book-chess-board.html">book chess board</a> instead of these, since it combined an interest in chess with an interest in design more than the daily-problem ideas did.</p>
+  </article>
+  </div>
 </main>
 
+<div class="checker-strip" aria-hidden="true"></div>
 <footer>
   <p>DT Portfolio. Built and maintained in <a href="https://github.com/RywnSwn/DT-Portfolio">this GitHub repo</a>.</p>
 </footer>

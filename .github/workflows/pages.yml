@@ -22,8 +22,13 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Build site folder
+        run: |
+          mkdir _site
+          cp -r work/website/. _site/
+          cp -r sources/images _site/images
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: work/website
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4

@@ -2,6 +2,12 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-10-08
+- Did: website v2 redesign. Bookshelf nav (links are book spines), checkerboard strips, CSS drawn chess book on home that opens on hover, chapter cover cards, 9 week plan bar on the Book Chess Board page, paper card sections, polaroid photo galleries, side by side Brainstorm layout. Phone layout checked at 375px
+- Did: fixed live site photos. Pages workflow now builds `_site` with `sources/images` copied to `images/`
+- Decided: look target is "about one month of freeCodeCamp CSS", original and themed instead of bland. Replaces the "basic and a little amateur" rule
+- Next: turn on GitHub Pages, add Bear Fix to Side Projects page, cover measurements
+
 ## 2026-10-02 (2)
 - Did: logged helping a classmate fix a bear toy model in Blender. Before/after screenshots and both STL files saved, writeup in `work/side-projects/bear-fix.md`
 - Next: add the Blender steps used and the classmate's name if they want credit. Then cover measurements
