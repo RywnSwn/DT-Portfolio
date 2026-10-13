@@ -415,7 +415,6 @@ main > p {
 }
 
 .covers {
-  list-style: none;
   margin: 20px 0 0;
   padding: 0;
   display: grid;
@@ -464,22 +463,22 @@ main > p {
   pointer-events: none;
 }
 
-.covers li:nth-child(1) .cover-card {
+.covers .cover-card:nth-child(1) {
   --card: var(--felt);
   transform: rotate(-1.5deg);
 }
 
-.covers li:nth-child(2) .cover-card {
+.covers .cover-card:nth-child(2) {
   --card: #24364f;
   transform: rotate(1deg);
 }
 
-.covers li:nth-child(3) .cover-card {
+.covers .cover-card:nth-child(3) {
   --card: #8a5a22;
   transform: rotate(-0.5deg);
 }
 
-.covers li:nth-child(4) .cover-card {
+.covers .cover-card:nth-child(4) {
   --card: #6e2a26;
   transform: rotate(1.5deg);
 }

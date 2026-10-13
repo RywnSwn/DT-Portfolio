@@ -5,6 +5,7 @@ One short entry per session. Newest at the top. Only add, never rewrite old entr
 ## 2026-10-13
 - Did: made the whole website an editable artifact (text only edits, "Copy my edits" export) and the DT rubric an editable artifact
 - Did: fixed the home page book. Hover now swings the cover open smoothly (the old idle peek animation made it snap), book bobs gently, removed the pawn from the middle
+- Did: user edited index.html (chapter numbers, card text). Reordered cards to chapters 1 to 4, swapped the card list for plain links in a grid, renamed Past Work to Tutorial Projects and Brainstorm to My Brainstorming Paper (page titles and h1), nav spine for Past Work now says Tutorials
 - Next: user sends rubric wording and site edits back, then apply them. Cover measurements
 
 ## 2026-10-08
