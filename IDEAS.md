@@ -15,6 +15,7 @@ Tags: [open] not tried, [trying] in progress, [kept] now part of the project, [d
 ## Website
 - [kept] Host on GitHub Pages in this repo instead of Google Sites, to keep everything in one place and have something to show for college (2026-09-29)
 - [kept] Website v2 "book on the shelf" theme: book spine nav, CSS chess book, cover cards, polaroids (2026-10-08)
+- [trying] Book Chess Board page as chapter tabs, one chapter at a time instead of one long scroll (2026-10-13)
 - [open] Add Bear Fix to the Side Projects page, with before/after screenshots (2026-10-08)
 
 ## Side projects

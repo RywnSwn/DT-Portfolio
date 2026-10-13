@@ -2,6 +2,11 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-10-13 (2)
+- Did: redesigned the Book Chess Board web page. It was one long scroll (about 5900px), now it shows one chapter at a time with bookmark tabs: The Idea, The Brief, Hinge, Cover, What's Next. Previous/Next "turn the page" buttons, arrow keys work on the tabs, links like #self-eval-2 open the right chapter
+- Did: Brief is now a grid of small cards, predesign facts are numbered cards, photos sit beside the text, self-evaluations are sticky notes, cover redesign shown as Before and After cards, small animation of the board sliding into the case. No text was removed
+- Next: user checks the new page, then cover measurements
+
 ## 2026-10-13
 - Did: made the whole website an editable artifact (text only edits, "Copy my edits" export) and the DT rubric an editable artifact
 - Did: fixed the home page book. Hover now swings the cover open smoothly (the old idle peek animation made it snap), book bobs gently, removed the pawn from the middle
