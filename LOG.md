@@ -2,6 +2,11 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-10-13
+- Did: made the whole website an editable artifact (text only edits, "Copy my edits" export) and the DT rubric an editable artifact
+- Did: fixed the home page book. Hover now swings the cover open smoothly (the old idle peek animation made it snap), book bobs gently, removed the pawn from the middle
+- Next: user sends rubric wording and site edits back, then apply them. Cover measurements
+
 ## 2026-10-08
 - Did: website v2 redesign. Bookshelf nav (links are book spines), checkerboard strips, CSS drawn chess book on home that opens on hover, chapter cover cards, 9 week plan bar on the Book Chess Board page, paper card sections, polaroid photo galleries, side by side Brainstorm layout. Phone layout checked at 375px
 - Did: fixed live site photos. Pages workflow now builds `_site` with `sources/images` copied to `images/`
