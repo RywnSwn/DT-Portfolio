@@ -9,7 +9,8 @@ One short entry per session. Newest at the top. Only add, never rewrite old entr
 - Did: added the trash holder v1 Fusion screenshot to the writeup and Side Projects page, with how v1 works
 - Did: added the trash holder screws screenshot (2 screws with bumpy heads) to the writeup and Side Projects page
 - Did: added the trash holder cover screenshot (square lid, X ridges, knob in the middle)
-- Next: user checks v3, turn on GitHub Pages, then cover measurements
+- Did: user said v3 looked bad and the fold board was weird. Built website v4 in `work/website-v4/`: simple student style, no gimmicks, same content. Workflow now publishes v4, v3 kept
+- Next: user checks v4, turn on GitHub Pages, then cover measurements
 
 ## 2026-10-13 (2)
 - Did: redesigned the Book Chess Board web page. It was one long scroll (about 5900px), now it shows one chapter at a time with bookmark tabs: The Idea, The Brief, Hinge, Cover, What's Next. Previous/Next "turn the page" buttons, arrow keys work on the tabs, links like #self-eval-2 open the right chapter

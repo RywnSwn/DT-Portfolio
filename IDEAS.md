@@ -15,7 +15,8 @@ Tags: [open] not tried, [trying] in progress, [kept] now part of the project, [d
 ## Website
 - [kept] Host on GitHub Pages in this repo instead of Google Sites, to keep everything in one place and have something to show for college (2026-09-29)
 - [dropped] Website v2 "book on the shelf" theme: looked too AI made. Saved in `work/website-v2/` (2026-10-14)
-- [kept] Website v3, beginner style with chess board colours, fold the board demo and dark mode (2026-10-14)
+- [dropped] Website v3, chess board colours and fold the board demo: looked weird. Saved in `work/website-v3/` (2026-10-14)
+- [kept] Website v4, simple student style, no gimmicks (2026-10-14)
 - [kept] Book Chess Board page as chapter tabs, one chapter at a time instead of one long scroll (2026-10-13)
 - [kept] Add Bear Fix to the Side Projects page, with a before/after slider (done in v3, 2026-10-14)
 

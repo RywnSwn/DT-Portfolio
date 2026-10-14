@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Chess Board | DT Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header>
+  <div class="header-inner">
+    <a class="site-name" href="index.html">DT Portfolio</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="book-chess-board.html" aria-current="page">Book Chess Board</a></li>
+        <li><a href="side-projects.html">Side Projects</a></li>
+        <li><a href="past-work.html">Tutorials</a></li>
+        <li><a href="brainstorm.html">Brainstorm</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main-content">
+<h1>Book Chess Board <span class="badge">In progress</span></h1>
+  <p>A chess board that folds and looks like a hardcover book on a shelf. This is my final project for Design Technology. Everything below is real progress so far, not a finished write-up, so some parts still say TBD.</p>
+
+  <h2>The 9 week plan</h2>
+  <p>Parts started: <progress value="2" max="5">2 of 5</progress> 2 of 5</p>
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr><th scope="col">Weeks</th><th scope="col">Part</th><th scope="col">Status</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1 to 2</td><td>Hinge</td><td class="started">Started: Hinge Test 1 done</td></tr>
+        <tr><td>3 to 4</td><td>Cover</td><td class="started">Started: Prototype 1 done</td></tr>
+        <tr><td>5</td><td>Storage and board</td><td class="not-started">Not started</td></tr>
+        <tr><td>6 to 8</td><td>Pieces and assembly</td><td class="not-started">Not started</td></tr>
+        <tr><td>9</td><td>Testing</td><td class="not-started">Not started</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tabs" role="tablist" aria-label="Project chapters" hidden>
+    <button type="button" class="tab" role="tab" id="tab-idea" aria-controls="idea" aria-selected="true">1. The Idea</button>
+    <button type="button" class="tab" role="tab" id="tab-brief" aria-controls="brief" aria-selected="false" tabindex="-1">2. The Brief</button>
+    <button type="button" class="tab" role="tab" id="tab-hinge" aria-controls="hinge" aria-selected="false" tabindex="-1">3. Hinge</button>
+    <button type="button" class="tab" role="tab" id="tab-cover" aria-controls="cover" aria-selected="false" tabindex="-1">4. Cover</button>
+    <button type="button" class="tab" role="tab" id="tab-next" aria-controls="next" aria-selected="false" tabindex="-1">5. What's Next</button>
+  </div>
+
+  <section class="chapter" id="idea" role="tabpanel" tabindex="0" aria-labelledby="tab-idea">
+    <h2>The Idea</h2>
+    <h3>Where it came from</h3>
+    <p>I love chess. I saw a TikTok where people made board games that fold up into books so they look nice on a shelf. I couldn't make something as advanced as theirs, so I simplified it into my own version.</p>
+    <h3>Project overview</h3>
+    <p>A functional chess board that folds into a book shape, able to sit on a bookshelf when closed. The current design (redesigned on 2026-09-25): the cover is a static book-shaped case, and the chess board itself folds in half and slides into the case, like a book going into a slipcase.</p>
+    <div class="box">
+      <h3>Target audience</h3>
+      <p>Chess players and aesthetic lovers who want a board that doubles as a display piece.</p>
+    </div>
+  </section>
+
+  <section class="chapter" id="brief" role="tabpanel" tabindex="0" aria-labelledby="tab-brief">
+    <h2>The Brief</h2>
+    <h3>Objectives</h3>
+    <ol>
+      <li>Develop a hinge</li>
+      <li>Design the aesthetics of the book cover</li>
+      <li>Design how to store the pieces</li>
+      <li>Design the pieces based on the size requirements of the storage and board</li>
+      <li>Figure out how to assemble everything</li>
+      <li>Test and find things to fix</li>
+      <li>Improve</li>
+      <li>Final output</li>
+    </ol>
+    <div class="grid">
+      <div class="box">
+        <h3>Scope of work</h3>
+        <ul>
+          <li>Prototype and develop the mechanism</li>
+          <li>Design and engrave the 64 tile board</li>
+          <li>Design and build storage for the pieces</li>
+          <li>Design and build the chess pieces</li>
+          <li>Assemble, test and finish</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Constraints</h3>
+        <ul>
+          <li>9 weeks total: 2 for hinge design, 2 more for cover design, 1 for storage and board design, 3 for pieces and assembly, 1 for testing</li>
+          <li>Limited to school workshop resources</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Design requirements</h3>
+        <ul>
+          <li>Board</li>
+          <li>Cover</li>
+          <li>Pieces</li>
+          <li>Hinge</li>
+          <li>Functionality</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Materials and resources</h3>
+        <p>Laser cut plywood for the cover case. Hinge material still open (magnets, or a real hinge). 3D printing for the folding board and the hinge mechanism.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter" id="hinge" role="tabpanel" tabindex="0" aria-labelledby="tab-hinge">
+    <h2>Hinge</h2>
+    <h3>Predesign: hinge and sizing</h3>
+    <p>Before building anything, I worked out how a book hinge actually needs to sit so the two sides close flat with no gap, and how that drives the size of the board.</p>
+    <ul>
+      <li>A mortised (recessed) hinge keeps the panels flush and lets them open a full flat 180 degrees, instead of leaving a gap like a surface-mounted hinge would.</li>
+      <li>The mortise depth on each panel should be half the hinge's closed thickness, so the pivot line sits exactly where the two surfaces meet.</li>
+      <li>The fold line sits between columns 4 and 5 of the board, never through the middle of a square, so each half is a clean 4 columns wide.</li>
+      <li>Target closed size: about 30 to 35 cm tall, like a real hardcover book.</li>
+    </ul>
+    <p><em>Since the redesign moved the hinge onto the folding board itself, this needs rechecking against the new design.</em></p>
+
+    <h3>Action and Demonstration: Hinge Test 1</h3>
+    <div class="two-col">
+      <figure>
+        <a class="pic" href="images/hinge-test/hinge-test-1-fusion.jpg"><img src="images/hinge-test/hinge-test-1-fusion.jpg" alt="Screenshot of a print-in-place knuckle hinge model in Fusion 360, showing interlocking cylindrical knuckles and a pivot rod on two flat base plates." loading="lazy"></a>
+        <figcaption>Hinge Test 1 in Fusion 360</figcaption>
+      </figure>
+      <div>
+        <p>First physical test of a print-in-place knuckle hinge in Fusion 360, before committing to a real hinge design.</p>
+        <p>The two halves were modeled as separate components and joined with a Revolute joint to test the opening motion. Ran into a Fusion quirk: grounding does not carry over when a component is inserted into a new design, and dragging a component in the viewport moves the whole rigid group instead of the joint. The fix is to drive the joint directly from the Joints folder instead of dragging.</p>
+      </div>
+    </div>
+    <div class="note">
+      <h3 id="self-eval-1">Self-evaluation</h3>
+      <p>Did not get the live joint simulation fully working this round. Plan was to move forward with manual measurement of the gap tolerance instead, and revisit proper joint simulation later if needed.</p>
+    </div>
+  </section>
+
+  <section class="chapter" id="cover" role="tabpanel" tabindex="0" aria-labelledby="tab-cover">
+    <h2>Cover</h2>
+    <h3>Redesign: static cover case</h3>
+    <div class="grid">
+      <div class="box">
+        <h3>Before</h3>
+        <p>Covers opened up like a real book, with the board built into them and piece storage carved into the inside faces. It needed hinges for the cover and hinges for the board, plus a way to stop the board folding too far so it stays rigid and flat. It was too hard to picture, and too hard to picture how it would print.</p>
+      </div>
+      <div class="box">
+        <h3>After (2026-09-25)</h3>
+        <p>The cover is a fixed, static case shaped like a book. It does not open. The chess board is a separate piece that folds in half and slides into the case for storage, then comes out and unfolds flat on a table to actually play on. The hinge moves from the book cover onto the folding board itself.</p>
+      </div>
+    </div>
+    <p>The first version was judged too advanced to build reliably in the time available. I went with the new one because it is still faithful to the advanced version, and I like the idea of a board that folds into a book.</p>
+
+    <h3>Demonstration: Cover Prototype 1 <span class="badge">Dimensions accurate, no engraving or grooves yet</span></h3>
+    <div class="gallery">
+    <figure>
+      <a class="pic" href="images/cover-prototype/angle-1.jpg"><img src="images/cover-prototype/angle-1.jpg" alt="Laser cut plywood book case prototype, spine side, showing the curved living-hinge spine." loading="lazy"></a>
+      <figcaption>Spine side</figcaption>
+    </figure>
+    <figure>
+      <a class="pic" href="images/cover-prototype/angle-2.jpg"><img src="images/cover-prototype/angle-2.jpg" alt="Laser cut plywood book case prototype, front cover with rounded corners." loading="lazy"></a>
+      <figcaption>Front cover</figcaption>
+    </figure>
+    </div>
+    <p>Laser cut plywood, light birch colour with burnt dark edges from the laser. Flat front and back covers with rounded corners. The spine is a laser cut flexible pattern (a living hinge, the pattern was made by Mr Yetihad), so flat wood bends round like a real book spine. A light wood block sits between the covers at the top where pages would be on a real book.</p>
+    <div class="note">
+      <h3 id="self-eval-2">Self-evaluation</h3>
+      <p>Exact measurements are TBD, still being recorded. Next step is to model the case in Fusion 360 from those measurements, then design the engraving and grooves on the model before cutting a final version. The folding board also needs sizing so it slides into the case with a small, even gap, not a tight press fit.</p>
+    </div>
+  </section>
+
+  <section class="chapter" id="next" role="tabpanel" tabindex="0" aria-labelledby="tab-next">
+    <h2>What's Next</h2>
+    <h3>Open questions</h3>
+    <ul>
+      <li>Where do the chess pieces get stored now that the cover does not open?</li>
+      <li>What kind of built-in hinge goes on the folding board: a living hinge like the spine, or a printed knuckle hinge?</li>
+      <li>Square size is not picked yet. It drives the board and cover dimensions.</li>
+    </ul>
+    <h3>Reflection</h3>
+    <p>TBD. This section will be written once there is a finished piece and more distance to look back on what worked and what did not.</p>
+    <h3>Full notes</h3>
+    <ul>
+      <li><a href="https://github.com/RywnSwn/DT-Portfolio/blob/main/sources/design-brief.md">Design Brief</a></li>
+      <li><a href="https://github.com/RywnSwn/DT-Portfolio/blob/main/sources/predesign-notes.md">Predesign Notes</a></li>
+      <li><a href="https://github.com/RywnSwn/DT-Portfolio/blob/main/work/chess-board/hinge-test-1.md">Hinge Test 1 (full notes)</a></li>
+      <li><a href="https://github.com/RywnSwn/DT-Portfolio/blob/main/work/chess-board/2026-09-25-cover-prototype-1.md">Cover Prototype 1 (full notes)</a></li>
+    </ul>
+  </section>
+
+  <div class="chapter-nav" hidden>
+    <button type="button" id="prev-btn">Previous</button>
+    <p id="chapter-count" aria-live="polite">Chapter 1 of 5</p>
+    <button type="button" id="next-btn">Next</button>
+  </div>
+</main>
+<footer>
+  <p>DT Portfolio, ISY 2026. My notes are in <a href="https://github.com/RywnSwn/DT-Portfolio">my GitHub repo</a>.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
