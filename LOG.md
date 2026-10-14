@@ -3,14 +3,9 @@
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
 ## 2026-10-14
-- Did: user said website v2 looked too AI made. Moved it to `work/website-v2/` to keep it, built a brand new beginner style site in `work/website-v3/` (plain HTML, CSS, JS, chess.com green colours, fold the board demo, dark mode, click to enlarge photos, chapter tabs, Bear Fix with a before/after slider). Same text as v2
-- Did: Pages workflow now publishes `work/website-v3`. Also published the site as an artifact for preview
-- Did: tried a design pass on v3 (board at the top, list instead of cards, slab font). User didn't like it, reverted back to the first v3
-- Did: added the trash holder v1 Fusion screenshot to the writeup and Side Projects page, with how v1 works
-- Did: added the trash holder screws screenshot (2 screws with bumpy heads) to the writeup and Side Projects page
-- Did: added the trash holder cover screenshot (square lid, X ridges, knob in the middle)
-- Did: user said v3 looked bad and the fold board was weird. Built website v4 in `work/website-v4/`: simple student style, no gimmicks, same content. Workflow now publishes v4, v3 kept
-- Next: user checks v4, turn on GitHub Pages, then cover measurements
+- Did: tried two new websites (v3 chess colours with a fold board, v4 simple green). User didn't like either. Both deleted, the bookshelf site (v2) is back in `work/website/` and the workflow publishes it again, same as before today
+- Did: added trash holder Fusion screenshots (v1, the cover, the 2 screws) to `sources/images/trash-holder/`, the writeup and the Side Projects page. v1 is one clamp with a ring the bag goes through, inner ring held by supports, screw to tighten
+- Next: screws designed or downloaded (credit if downloaded)? Printed yet? Then cover measurements
 
 ## 2026-10-13 (2)
 - Did: redesigned the Book Chess Board web page. It was one long scroll (about 5900px), now it shows one chapter at a time with bookmark tabs: The Idea, The Brief, Hinge, Cover, What's Next. Previous/Next "turn the page" buttons, arrow keys work on the tabs, links like #self-eval-2 open the right chapter
