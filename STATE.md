@@ -9,7 +9,7 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 
 ## Where it's at
 - Cover Prototype 1 done: laser cut plywood case, living hinge spine (pattern by Mr Yetihad), accurate size, no engraving or grooves. Measurements TBD (`work/chess-board/2026-09-25-cover-prototype-1.md`)
-- Board: being modeled in Fusion. Built-in hinge, type TBD. Fold between columns 4 and 5
+- Board: work in progress, being modeled in Fusion. Hard part (user): hinge has to be small and the board has to hold pieces at the same time. Built-in hinge, type TBD. Fold between columns 4 and 5
 - Hinge Test 1 done (print-in-place knuckle hinge), live joint sim didn't work (`work/chess-board/hinge-test-1.md`)
 - Design story writeup roughly covers steps 1 to 6 (`work/chess-board/design-story.md`)
 - Website v2 (old bookshelf theme) still in `work/website/` but no longer published
