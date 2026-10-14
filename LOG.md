@@ -11,7 +11,8 @@ One short entry per session. Newest at the top. Only add, never rewrite old entr
 - Did: built the other 4 v5 pages (Book Chess Board, Side Projects, Tutorials, Brainstorm) with 4 subagents in parallel, after writing the shared CSS first so they did not clash. Checked: no text lost (word diff vs old pages, only the plan's "N weeks" became week ranges), all images load, no sideways scroll at 375px, chapter tabs, Previous/Next, arrow keys and #self-eval-2 work
 - Did: switched GitHub Pages to `work/website-v5` (workflow copy path). Image paths changed to `images/...` for the live build. Added meta descriptions, canonical links, Open Graph tags, `sitemap.xml`, `robots.txt`, `<time>` dates, labelled sections, the "right now" note as an aside with a heading, width/height on all images, arrows hidden from screen readers. Darkened the orange to pass contrast (4.0 to 5.3). Checked: no code comments, no em dashes, audit clean on all 5 pages (alts, headings, landmarks, ids, skip link)
 - Decided: v5 is the live site, v2 look rule replaced in RULES
-- Next: check the live site, decide what to do with the old `work/website/`
+- Did: added the Google Search Console verification file `work/website-v5/googlebdcb4a83493c9265.html` (do not edit or delete it, Google checks it)
+- Next: check the live site, verify in Search Console, decide what to do with the old `work/website/`
 
 ## 2026-10-14
 - Did: tried two new websites (v3 chess colours with a fold board, v4 simple green). User didn't like either. Both deleted, the bookshelf site (v2) is back in `work/website/` and the workflow publishes it again, same as before today
