@@ -16,6 +16,7 @@ How I want Claude to work in this repo. One dated line per rule. Newest wins. If
 
 - 2026-10-08 (user-stated): Website look: original and themed, not bland or Google Sites looking. Skill level target is "about one month of freeCodeCamp CSS" (variables, flexbox, grid, gradients, transforms, transitions, simple keyframes, shapes from divs). Still plain HTML, CSS and JS. Never any comments in code. Accessibility still done properly.
 - 2026-10-08 (user-stated): When building something visual, show progress as it goes: task list on the side plus a screenshot after each step.
+- 2026-10-14 (user-stated): Website is full width. No centered floating page box in the middle, it looks AI made.
 
 ## About me
 - Student at ISY (International School Yangon), Myanmar, 9th grade

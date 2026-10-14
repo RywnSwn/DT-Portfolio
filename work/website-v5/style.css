@@ -22,14 +22,16 @@
 
 body {
   margin: 0;
-  background: var(--bg);
+  background: var(--page);
   color: var(--ink);
   font-family: var(--body);
   font-size: 15px;
   line-height: 1.6;
-  padding-block: 24px 40px;
-  padding-left: max(16px, env(safe-area-inset-left, 0px));
-  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+header, nav ul, main, footer {
+  padding-left: max(24px, env(safe-area-inset-left, 0px));
+  padding-right: max(24px, env(safe-area-inset-right, 0px));
 }
 
 .skip {
@@ -61,15 +63,8 @@ a:focus-visible, button:focus-visible {
   outline-offset: 2px;
 }
 
-.page {
-  max-width: 780px;
-  margin: 0 auto;
-  background: var(--page);
-  border: 2px solid var(--line);
-}
-
 header {
-  padding: 22px 24px 26px;
+  padding-block: 22px 26px;
   border-bottom: 2px solid var(--line);
   background-image:
     repeating-linear-gradient(90deg, var(--line) 0 1px, transparent 1px 10px),
@@ -118,7 +113,7 @@ h1 {
 nav ul {
   list-style: none;
   margin: 0;
-  padding: 10px 24px;
+  padding-block: 10px;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -146,7 +141,35 @@ nav a[aria-current="page"] {
 }
 
 main {
-  padding: 8px 24px 24px;
+  padding-block: 8px 32px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  grid-template-areas:
+    "hi note"
+    "project others";
+  grid-template-rows: auto 1fr;
+  gap: 0 48px;
+  align-items: start;
+}
+
+.hi {
+  grid-area: hi;
+}
+
+.now {
+  grid-area: note;
+}
+
+.work {
+  grid-area: project;
+}
+
+.other {
+  grid-area: others;
+}
+
+main > section {
+  min-width: 0;
 }
 
 h2 {
@@ -165,7 +188,7 @@ p {
   background: var(--note);
   border: 2px dashed var(--line);
   padding: 12px 16px;
-  margin-top: 18px;
+  margin-top: 28px;
   transform: rotate(-0.6deg);
 }
 
@@ -187,7 +210,8 @@ p {
 
 .project {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 220px minmax(0, 1fr);
+  max-width: 900px;
   gap: 20px;
   align-items: start;
 }
@@ -306,7 +330,8 @@ td:first-child {
 
 footer {
   border-top: 2px solid var(--line);
-  padding: 12px 24px;
+  padding-block: 12px;
+  background: var(--bg);
   font-size: 0.8rem;
   color: var(--soft);
   display: flex;
@@ -315,15 +340,27 @@ footer {
   gap: 6px 16px;
 }
 
+@media (max-width: 900px) {
+  main {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "note"
+      "hi"
+      "project"
+      "others";
+    grid-template-rows: none;
+  }
+}
+
 @media (max-width: 560px) {
   header {
-    padding: 16px 16px 24px;
+    padding-block: 16px 24px;
     background-position: 16px 100%, 16px 100%;
   }
 
-  nav ul, main, footer {
-    padding-left: 16px;
-    padding-right: 16px;
+  header, nav ul, main, footer {
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
   }
 
   h1 {
