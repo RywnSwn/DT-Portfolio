@@ -7,6 +7,7 @@ One short entry per session. Newest at the top. Only add, never rewrite old entr
 - Did: Name Tag page (`past-work.html`) Chinese-style pattern line rewritten in their words
 - Did: removed "at ISY, Yangon. Teacher: Mr Yetihad" from all page subtitles and "from ISY, Yangon" from the home meta descriptions. Kept the Mr Yetihad hinge pattern credit (rule)
 - Did: Storage and board status is now "work in progress" on the home page and the 9 week plan. User says it is hard: the hinge has to be small while the board also has to hold pieces
+- Did: deleted the "I made this site myself with HTML and CSS instead of Google Sites" paragraph from the home page
 - Next: user keeps sending text edits, apply them exactly. `work/side-projects/bear-fix.md` and `trash-holder.md` still have the old wording
 
 ## 2026-10-14 (2)
