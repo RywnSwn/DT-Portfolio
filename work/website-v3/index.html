@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home | DT Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600;700&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,13 +30,15 @@
   </nav>
   <main id="main-content" tabindex="-1">
 
-    <h1>Welcome to my DT portfolio</h1>
-    <p>This is my DT portfolio. My final project is a chess board that folds like a book. It is still being designed and built, so a lot of this is a work in progress rather than a finished thing.</p>
-
-    <div class="two-col">
-      <section class="box board-box" aria-labelledby="try-title">
-        <h2 id="try-title">Try it: fold the board</h2>
-        <p>My chess board folds in half between the d and e columns, so no square gets cut in half.</p>
+    <div class="hero">
+      <div class="hero-text">
+        <h1>My DT portfolio</h1>
+        <p>This is my DT portfolio. My final project is a chess board that folds like a book. It is still being designed and built, so a lot of this is a work in progress rather than a finished thing.</p>
+        <p>The board folds in half between the d and e columns, so no square gets cut in half. Press the button to fold it.</p>
+        <p><button type="button" id="fold-btn">Fold the board</button></p>
+        <p id="fold-status" aria-live="polite">Unfolded and flat, ready to play.</p>
+      </div>
+      <div class="hero-board">
         <div class="board" id="board" role="img" aria-label="A chess board split into two halves between the d and e columns">
           <div class="half left"></div>
           <div class="flap">
@@ -41,8 +46,18 @@
             <div class="flap-back"></div>
           </div>
         </div>
-        <p><button type="button" id="fold-btn">Fold the board</button></p>
-        <p id="fold-status" aria-live="polite">Unfolded and flat, ready to play.</p>
+      </div>
+    </div>
+
+    <div class="two-col">
+      <section aria-labelledby="pages-title">
+        <h2 id="pages-title">What's on this site</h2>
+        <ul class="page-list">
+          <li><a href="past-work.html">Tutorial Projects</a><span>Our first projects in DT to understand fusion.</span></li>
+          <li><a href="brainstorm.html">My Brainstorming Paper</a><span>My papers where I wrote ideas.</span></li>
+          <li><a href="side-projects.html">Side Projects</a><span>These ones I make to improve my life, or I'm just bored.</span></li>
+          <li><a href="book-chess-board.html">Book Chess Board</a><span>This is my first big project in DT this year.</span></li>
+        </ul>
       </section>
 
       <section aria-labelledby="updates-title">
@@ -55,21 +70,13 @@
         <p>It has been <strong id="days">50</strong> days since that first brainstorm.</p>
       </section>
     </div>
-
-    <h2>Pages</h2>
-    <ul class="page-list">
-      <li><a href="past-work.html"><strong>Tutorial Projects</strong><small>Our first projects in DT to understand fusion.</small></a></li>
-      <li><a href="brainstorm.html"><strong>My Brainstorming Paper</strong><small>My papers where I wrote ideas.</small></a></li>
-      <li><a href="side-projects.html"><strong>Side Projects</strong><small>These ones I make to improve my life, or I'm just bored.</small></a></li>
-      <li><a href="book-chess-board.html"><strong>Book Chess Board</strong><small>This is my first big project in DT this year.</small></a></li>
-    </ul>
   </main>
   <footer>
     <p>Made with HTML, CSS and JavaScript. All my notes are in <a href="https://github.com/RywnSwn/DT-Portfolio">my GitHub repo</a>.</p>
     <p>Last updated 14 October 2026</p>
   </footer>
 </div>
-<button type="button" id="to-top" hidden>&uarr; Top</button>
+<button type="button" id="to-top" hidden>Back to top</button>
 <dialog id="viewer" aria-label="Photo viewer">
   <img alt="">
   <p></p>

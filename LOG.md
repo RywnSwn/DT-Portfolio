@@ -5,6 +5,7 @@ One short entry per session. Newest at the top. Only add, never rewrite old entr
 ## 2026-10-14
 - Did: user said website v2 looked too AI made. Moved it to `work/website-v2/` to keep it, built a brand new beginner style site in `work/website-v3/` (plain HTML, CSS, JS, chess.com green colours, fold the board demo, dark mode, click to enlarge photos, chapter tabs, Bear Fix with a before/after slider). Same text as v2
 - Did: Pages workflow now publishes `work/website-v3`. Also published the site as an artifact for preview
+- Did: design pass on v3. Folding board is now the big thing at the top of Home, page links are a plain list instead of cards, removed photo tilt on hover and arrows on buttons, square corners on boxes, headings now Zilla Slab. On phones the board shows above the Fold button
 - Next: user checks v3, turn on GitHub Pages, then cover measurements
 
 ## 2026-10-13 (2)

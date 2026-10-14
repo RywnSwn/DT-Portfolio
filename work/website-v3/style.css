@@ -130,7 +130,7 @@ header {
 
 .site-name {
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Zilla Slab", Georgia, serif;
   font-size: 1.9rem;
   font-weight: bold;
 }
@@ -197,7 +197,7 @@ main {
 }
 
 h1, h2, h3 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Zilla Slab", Georgia, serif;
   color: var(--heading);
   line-height: 1.25;
 }
@@ -256,14 +256,12 @@ p, li {
 .box {
   background: var(--box);
   border: 2px solid var(--line);
-  border-radius: 6px;
   padding: 4px 18px 12px;
 }
 
 .note {
   background: var(--note-bg);
   border: 2px dashed var(--note-line);
-  border-radius: 6px;
   padding: 4px 18px 10px;
   margin: 18px 0;
 }
@@ -315,8 +313,7 @@ a.pic img {
   display: block;
   width: 100%;
   border: 5px solid var(--frame);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
-  transition: transform 0.2s;
+  outline: 1px solid var(--line);
 }
 
 .gallery a.pic img {
@@ -325,7 +322,7 @@ a.pic img {
 }
 
 a.pic:hover img {
-  transform: rotate(-1.5deg) scale(1.03);
+  outline: 3px solid var(--dark-square);
 }
 
 .updates {
@@ -345,49 +342,52 @@ a.pic:hover img {
 }
 
 .page-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 12px;
   list-style: none;
   padding: 0;
 }
 
+.page-list li {
+  padding: 10px 0;
+  border-bottom: 1px dotted var(--line);
+}
+
 .page-list a {
+  font-family: "Zilla Slab", Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.page-list span {
   display: block;
-  height: 100%;
-  padding: 12px 14px;
-  border: 2px solid var(--line);
-  border-radius: 6px;
-  background: var(--box);
-  color: var(--text);
-  text-decoration: none;
-  transition: background 0.2s, transform 0.2s;
+  color: var(--muted);
 }
 
-.page-list a:hover {
-  background: var(--yellow);
-  color: var(--on-yellow);
-  transform: translateY(-3px);
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px 40px;
+  margin-top: 16px;
 }
 
-.page-list strong {
-  display: block;
-  font-size: 1.1rem;
-  color: inherit;
+.hero-text {
+  flex: 1 1 300px;
+  min-width: 0;
 }
 
-.page-list small {
-  display: block;
-  color: inherit;
-  opacity: 0.8;
+.hero h1 {
+  font-size: 3.2rem;
+  margin: 0 0 12px;
 }
 
-.board-box {
+.hero-board {
+  flex: 0 0 auto;
+  max-width: 100%;
   text-align: center;
 }
 
 .board {
-  --sq: min(38px, 8vw);
+  --sq: min(44px, 9.5vw);
   display: inline-flex;
   perspective: 900px;
   margin: 10px 0;
@@ -470,7 +470,7 @@ a.pic:hover img {
   right: 3px;
 }
 
-.board-box button, .chapter-nav button, .dialog-close {
+.hero button, .chapter-nav button, .dialog-close {
   background: var(--green);
   color: var(--on-green);
   border: none;
@@ -481,7 +481,7 @@ a.pic:hover img {
   cursor: pointer;
 }
 
-.board-box button:hover, .chapter-nav button:hover, .dialog-close:hover {
+.hero button:hover, .chapter-nav button:hover, .dialog-close:hover {
   background: var(--nav-hover);
 }
 
@@ -594,7 +594,7 @@ progress {
   position: relative;
   max-width: 640px;
   border: 5px solid var(--frame);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+  outline: 1px solid var(--line);
 }
 
 .compare img {
@@ -698,8 +698,13 @@ footer p {
     padding: 12px 16px;
   }
 
-  h1 {
-    font-size: 1.8rem;
+  h1, .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-board {
+    order: -1;
+    margin: 0 auto;
   }
 
   .site-name {
