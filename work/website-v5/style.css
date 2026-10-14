@@ -72,25 +72,6 @@ header {
   background-size: 100% 6px, 100% 12px;
   background-position: 24px 100%, 24px 100%;
   background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  gap: 18px;
-}
-
-.logo {
-  flex: none;
-  width: 58px;
-  height: 58px;
-  border: 2px solid var(--line);
-  background: var(--accent);
-  color: var(--page);
-  display: grid;
-  place-items: center;
-  font-family: var(--head);
-  font-weight: bold;
-  font-size: 1.5rem;
-  box-shadow: 4px 4px 0 var(--line);
-  transform: rotate(-4deg);
 }
 
 h1, h2, h3 {
@@ -386,7 +367,7 @@ footer {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .now, .logo {
+  .now {
     transform: none;
   }
 }

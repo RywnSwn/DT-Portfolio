@@ -7,6 +7,7 @@ One short entry per session. Newest at the top. Only add, never rewrite old entr
 - Did: wrote a detailed plan and prompt with the full design spec, then built the home page in a new folder `work/website-v5/` (`index.html`, `style.css`). Old site untouched and still live. Checked at 1280px and 375px, no sideways scroll, all images load
 - Decided: v5 goes in its own folder, home page first, other pages only after the user approves it
 - Did: user said the centered floating box looks AI made. Made v5 full width: header, nav and footer span the screen, main column on the left, sidebar on the right (right now note, other projects), stacks on phones. Saved as a rule
+- Did: removed the orange tilted DT logo box from the header (user: AI vibes). Header is now just the title and subtitle over the ruler ticks
 - Next: user feedback on the v5 home page
 
 ## 2026-10-14
