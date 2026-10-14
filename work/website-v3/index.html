@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | DT Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<div class="wrapper">
+  <header>
+    <div>
+      <p class="site-name"><a href="index.html"><span aria-hidden="true">&#9822;</span>DT Portfolio</a></p>
+      <p class="tagline">Grade 9 Design Technology at ISY</p>
+    </div>
+    <button type="button" id="theme-btn">Dark mode</button>
+  </header>
+  <nav aria-label="Main">
+    <ul>
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="book-chess-board.html">Book Chess Board</a></li>
+      <li><a href="side-projects.html">Side Projects</a></li>
+      <li><a href="past-work.html">Tutorials</a></li>
+      <li><a href="brainstorm.html">Brainstorm</a></li>
+    </ul>
+  </nav>
+  <main id="main-content" tabindex="-1">
+
+    <h1>Welcome to my DT portfolio</h1>
+    <p>This is my DT portfolio. My final project is a chess board that folds like a book. It is still being designed and built, so a lot of this is a work in progress rather than a finished thing.</p>
+
+    <div class="two-col">
+      <section class="box board-box" aria-labelledby="try-title">
+        <h2 id="try-title">Try it: fold the board</h2>
+        <p>My chess board folds in half between the d and e columns, so no square gets cut in half.</p>
+        <div class="board" id="board" role="img" aria-label="A chess board split into two halves between the d and e columns">
+          <div class="half left"></div>
+          <div class="flap">
+            <div class="half right"></div>
+            <div class="flap-back"></div>
+          </div>
+        </div>
+        <p><button type="button" id="fold-btn">Fold the board</button></p>
+        <p id="fold-status" aria-live="polite">Unfolded and flat, ready to play.</p>
+      </section>
+
+      <section aria-labelledby="updates-title">
+        <h2 id="updates-title">Latest updates</h2>
+        <ul class="updates">
+          <li><b>2 Oct 2026</b> Fixed a classmate's bear model in Blender. It is on the <a href="side-projects.html#bear-fix">Side Projects</a> page.</li>
+          <li><b>25 Sep 2026</b> Laser cut Cover Prototype 1, then changed the design so the cover is a static case and the board slides in.</li>
+          <li><b>25 Aug 2026</b> Wrote my first page of DT ideas on paper.</li>
+        </ul>
+        <p>It has been <strong id="days">50</strong> days since that first brainstorm.</p>
+      </section>
+    </div>
+
+    <h2>Pages</h2>
+    <ul class="page-list">
+      <li><a href="past-work.html"><strong>Tutorial Projects</strong><small>Our first projects in DT to understand fusion.</small></a></li>
+      <li><a href="brainstorm.html"><strong>My Brainstorming Paper</strong><small>My papers where I wrote ideas.</small></a></li>
+      <li><a href="side-projects.html"><strong>Side Projects</strong><small>These ones I make to improve my life, or I'm just bored.</small></a></li>
+      <li><a href="book-chess-board.html"><strong>Book Chess Board</strong><small>This is my first big project in DT this year.</small></a></li>
+    </ul>
+  </main>
+  <footer>
+    <p>Made with HTML, CSS and JavaScript. All my notes are in <a href="https://github.com/RywnSwn/DT-Portfolio">my GitHub repo</a>.</p>
+    <p>Last updated 14 October 2026</p>
+  </footer>
+</div>
+<button type="button" id="to-top" hidden>&uarr; Top</button>
+<dialog id="viewer" aria-label="Photo viewer">
+  <img alt="">
+  <p></p>
+  <button type="button" class="dialog-close">Close</button>
+</dialog>
+<script src="script.js"></script>
+</body>
+</html>

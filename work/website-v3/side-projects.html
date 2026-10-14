@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Side Projects | DT Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<div class="wrapper">
+  <header>
+    <div>
+      <p class="site-name"><a href="index.html"><span aria-hidden="true">&#9822;</span>DT Portfolio</a></p>
+      <p class="tagline">Grade 9 Design Technology at ISY</p>
+    </div>
+    <button type="button" id="theme-btn">Dark mode</button>
+  </header>
+  <nav aria-label="Main">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="book-chess-board.html">Book Chess Board</a></li>
+      <li><a href="side-projects.html" aria-current="page">Side Projects</a></li>
+      <li><a href="past-work.html">Tutorials</a></li>
+      <li><a href="brainstorm.html">Brainstorm</a></li>
+    </ul>
+  </nav>
+  <main id="main-content" tabindex="-1">
+
+    <h1>Side Projects</h1>
+    <p>Smaller things made alongside the main project, usually solving a random daily problem.</p>
+
+    <article aria-labelledby="trash-title">
+      <h2 id="trash-title">Trash Holder <span class="badge">Version 2 in progress</span></h2>
+      <h3>The problem</h3>
+      <p>My nose runs and I sneeze all the time, and it has been like that my whole life. Used tissues end up in a pile next to me on the desk, so I wanted somewhere right at my desk to put them. This grew out of the "tissue holder under table" idea from the original <a href="brainstorm.html">brainstorm</a>.</p>
+
+      <div class="two-col">
+        <div>
+          <h3>Why a clamp</h3>
+          <ul>
+            <li>Tape is easy to move, but it gets weak over time.</li>
+            <li>Screwing into the desk is too permanent.</li>
+            <li>A clamp holds strong and can still move to another desk.</li>
+          </ul>
+          <p>It uses a microphone-style twist clamp, so I did not need to measure the desk. You just screw it tight onto the edge.</p>
+        </div>
+        <div class="box">
+          <h3>Version 1</h3>
+          <p>One clamp with a circle in it, so a trash bag could go through the circle. I got about halfway in Fusion 360 and then deleted it.</p>
+          <h3>Version 2</h3>
+          <p>Two clamps, one on each side, with a tub sitting in the middle. I changed to this because it is modular: the clamps can adjust to different tables without redesigning everything. The tub replaces the trash bag.</p>
+        </div>
+      </div>
+
+      <h3>Making</h3>
+      <p>Modeled in Fusion 360, about a day per part. This is a side project, so I work on it when I am a bit burnt out on the chess board. One part is printed so far (below) and it came out fine. The tub is modeled and printing next. Still to print: the second clamp and 2 screws.</p>
+      <div class="gallery">
+      <figure>
+        <a class="pic" href="images/trash-holder/part-1.jpg"><img src="images/trash-holder/part-1.jpg" alt="3D printed trash holder part, black filament, showing the mounting tab and arm." loading="lazy"></a>
+        <figcaption>Printed part, angle 1</figcaption>
+      </figure>
+      <figure>
+        <a class="pic" href="images/trash-holder/part-2.jpg"><img src="images/trash-holder/part-2.jpg" alt="3D printed trash holder part, black filament, showing the raised lip at the end of the arm." loading="lazy"></a>
+        <figcaption>Printed part, angle 2</figcaption>
+      </figure>
+      </div>
+
+      <h3>Testing</h3>
+      <p>Not tested yet. I do not have the screw yet, so the printed part has not been fitted to the clamp, and nobody has used it.</p>
+
+      <h3>Next steps</h3>
+      <ol>
+        <li>Print the tub</li>
+        <li>Print the second clamp and 2 screws</li>
+        <li>Assemble it and fit it to my desk</li>
+        <li>Use it for a while and note what works and what does not</li>
+        <li>Fix anything that comes up</li>
+      </ol>
+    </article>
+
+    <article id="bear-fix" aria-labelledby="bear-title">
+      <h2 id="bear-title">Bear Fix <span class="badge">Done</span></h2>
+      <p>A classmate had a toy model of a bear that was giving them trouble. I fixed the file in Blender and gave it back.</p>
+
+      <div class="compare">
+        <img src="images/bear-fix/before.png" alt="Bear model in Blender before the fix: a very detailed mesh with a stray flat shape stuck to the raised hand.">
+        <img class="after" src="images/bear-fix/after.png" alt="Bear model in Blender after the fix: a simpler low poly mesh with the stray shape removed.">
+        <span class="tag tag-before" aria-hidden="true">Before</span>
+        <span class="tag tag-after" aria-hidden="true">After</span>
+      </div>
+      <div class="compare-control">
+        <label for="compare-range">Drag to compare before and after</label>
+        <input type="range" id="compare-range" min="0" max="100" value="50">
+      </div>
+
+      <h3>Before and after</h3>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th scope="col"></th><th scope="col">Before</th><th scope="col">After</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Triangles</th><td>86,730</td><td>3,356</td></tr>
+            <tr><th scope="row">File size</th><td>4.3 MB</td><td>168 KB</td></tr>
+            <tr><th scope="row">Problems</th><td>Very detailed mesh, weird flat shape stuck to the raised hand</td><td>Low poly, shape removed, still looks like a bear</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>How I did it</h3>
+      <ul>
+        <li>Removed the stray shape connected to the hand</li>
+        <li>Remeshed it in Blender because I thought it would look better a little less poly</li>
+        <li>Tried subdividing afterwards, but it looked terrible</li>
+        <li>Could have sculpted it smooth instead, but that was a lot of work for a favour, so I skipped it</li>
+      </ul>
+      <div class="note">
+        <h3>Next time</h3>
+        <p>Subdivide, sculpt it smooth, then decimate again to bring the poly count back down.</p>
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>Made with HTML, CSS and JavaScript. All my notes are in <a href="https://github.com/RywnSwn/DT-Portfolio">my GitHub repo</a>.</p>
+    <p>Last updated 14 October 2026</p>
+  </footer>
+</div>
+<button type="button" id="to-top" hidden>&uarr; Top</button>
+<dialog id="viewer" aria-label="Photo viewer">
+  <img alt="">
+  <p></p>
+  <button type="button" class="dialog-close">Close</button>
+</dialog>
+<script src="script.js"></script>
+</body>
+</html>

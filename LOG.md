@@ -2,6 +2,11 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-10-14
+- Did: user said website v2 looked too AI made. Moved it to `work/website-v2/` to keep it, built a brand new beginner style site in `work/website-v3/` (plain HTML, CSS, JS, chess.com green colours, fold the board demo, dark mode, click to enlarge photos, chapter tabs, Bear Fix with a before/after slider). Same text as v2
+- Did: Pages workflow now publishes `work/website-v3`. Also published the site as an artifact for preview
+- Next: user checks v3, turn on GitHub Pages, then cover measurements
+
 ## 2026-10-13 (2)
 - Did: redesigned the Book Chess Board web page. It was one long scroll (about 5900px), now it shows one chapter at a time with bookmark tabs: The Idea, The Brief, Hinge, Cover, What's Next. Previous/Next "turn the page" buttons, arrow keys work on the tabs, links like #self-eval-2 open the right chapter
 - Did: Brief is now a grid of small cards, predesign facts are numbered cards, photos sit beside the text, self-evaluations are sticky notes, cover redesign shown as Before and After cards, small animation of the board sliding into the case. No text was removed

@@ -14,7 +14,8 @@ How I want Claude to work in this repo. One dated line per rule. Newest wins. If
 - 2026-09-29: Always credit work that isn't mine (Mr Yetihad's living hinge pattern, the downloaded iPhone dummy model).
 - 2026-10-01 (user-stated): Repo uses the project-rag layout: `RULES.md`, `STATE.md`, `LOG.md`, `IDEAS.md`, `sources/`, `work/`. No new top-level files without asking.
 
-- 2026-10-08 (user-stated): Website look: original and themed, not bland or Google Sites looking. Skill level target is "about one month of freeCodeCamp CSS" (variables, flexbox, grid, gradients, transforms, transitions, simple keyframes, shapes from divs). Still plain HTML, CSS and JS. Never any comments in code. Accessibility still done properly.
+- (REPLACED) 2026-10-08 (user-stated): Website look: original and themed, not bland or Google Sites looking. Skill level target is "about one month of freeCodeCamp CSS" (variables, flexbox, grid, gradients, transforms, transitions, simple keyframes, shapes from divs). Still plain HTML, CSS and JS. Never any comments in code. Accessibility still done properly.
+- 2026-10-14 (user-stated): Website v2 felt too AI made. Website v3 (`work/website-v3/`) should look like a beginner made it with plain HTML, CSS and JS, but still a bit more impressive than Google Sites. Never any comments in code. Accessibility still done properly. Old sites are kept in their own folders, not deleted.
 - 2026-10-08 (user-stated): When building something visual, show progress as it goes: task list on the side plus a screenshot after each step.
 
 ## About me
