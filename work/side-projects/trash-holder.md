@@ -1,7 +1,7 @@
 # Side Project: Trash Holder
 
 **Date added:** 2026-09-25
-**Last updated:** 2026-09-29
+**Last updated:** 2026-10-14
 **Status:** Version 2 in progress. One part printed, tub modeled, not assembled or tested yet.
 
 ![Trash holder, part 1](../../sources/images/trash-holder/part-1.jpg)
@@ -20,10 +20,14 @@ This grew out of the "tissue holder under table" idea in `sources/brainstorm-202
 - Clamp: holds strong, and can still be moved to another desk
 - It uses a microphone-style twist clamp, so no measuring is needed: you just screw it tight onto the desk edge
 
-## Version 1 (deleted)
-- One clamp with a circle (ring) in it
-- Plan was to put a trash bag through the circle
-- Designed about halfway in Fusion 360, then deleted the file
+## Version 1 (dropped)
+![Trash holder v1 in Fusion 360](../../sources/images/trash-holder/v1-fusion.jpg)
+
+- One clamp with a ring on an arm
+- The plastic trash bag goes through the ring, which has a hole in the middle
+- The inner ring has small supports so it stays connected to the outer ring
+- A screw in the clamp tightens it onto the desk and holds it there
+- Got about halfway in Fusion 360, then switched to Version 2
 
 ## Version 2 (current)
 - Two clamps, one on each side, with a tub sitting in the middle

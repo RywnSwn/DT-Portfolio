@@ -296,6 +296,11 @@ figure {
   margin: 0;
 }
 
+figure.wide {
+  max-width: 520px;
+  margin: 16px 0;
+}
+
 .gallery figure {
   width: 200px;
   max-width: 100%;

@@ -5,6 +5,8 @@ One short entry per session. Newest at the top. Only add, never rewrite old entr
 ## 2026-10-14
 - Did: user said website v2 looked too AI made. Moved it to `work/website-v2/` to keep it, built a brand new beginner style site in `work/website-v3/` (plain HTML, CSS, JS, chess.com green colours, fold the board demo, dark mode, click to enlarge photos, chapter tabs, Bear Fix with a before/after slider). Same text as v2
 - Did: Pages workflow now publishes `work/website-v3`. Also published the site as an artifact for preview
+- Did: tried a design pass on v3 (board at the top, list instead of cards, slab font). User didn't like it, reverted back to the first v3
+- Did: added the trash holder v1 Fusion screenshot to the writeup and Side Projects page, with how v1 works
 - Next: user checks v3, turn on GitHub Pages, then cover measurements
 
 ## 2026-10-13 (2)
