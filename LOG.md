@@ -12,6 +12,7 @@ One short entry per session. Newest at the top. Only add, never rewrite old entr
 - Did: switched GitHub Pages to `work/website-v5` (workflow copy path). Image paths changed to `images/...` for the live build. Added meta descriptions, canonical links, Open Graph tags, `sitemap.xml`, `robots.txt`, `<time>` dates, labelled sections, the "right now" note as an aside with a heading, width/height on all images, arrows hidden from screen readers. Darkened the orange to pass contrast (4.0 to 5.3). Checked: no code comments, no em dashes, audit clean on all 5 pages (alts, headings, landmarks, ids, skip link)
 - Decided: v5 is the live site, v2 look rule replaced in RULES
 - Did: added the Google Search Console verification file `work/website-v5/googlebdcb4a83493c9265.html` (do not edit or delete it, Google checks it)
+- Did: user said sub pages were just one long scroll. Gave them the home page's modular layout: title row, main column plus 320px sidebar, short sections side by side (`.cols`), chess Brief and What's Next as bordered boxes (`.boxes`), 9 week plan in the chess page sidebar, trash holder Testing and Next steps in the sidebar, Name Tag in the Tutorials sidebar, brainstorm photo in the sidebar. Galleries 2 per row on phones. Word diff shows no text lost, audit clean
 - Next: check the live site, verify in Search Console, decide what to do with the old `work/website/`
 
 ## 2026-10-14

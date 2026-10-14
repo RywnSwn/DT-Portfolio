@@ -31,32 +31,16 @@
     </ul>
   </nav>
 
-  <main id="main">
-    <h1>Book Chess Board <span class="tag doing">In progress</span></h1>
-    <p class="intro">
-      A chess board that folds and looks like a hardcover book on a shelf.
-      This is my final project for Design Technology. Everything below is
-      real progress so far, not a finished write-up, so some parts still
-      say TBD. Pick a chapter tab to read it.
-    </p>
-
-    <section aria-labelledby="plan-title">
-      <h2 id="plan-title">The 9 week plan</h2>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr><th scope="col">Weeks</th><th scope="col">Part</th><th scope="col">Status</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>1 to 2</td><td>Hinge</td><td><span class="tag doing">Started: Hinge Test 1 done</span></td></tr>
-            <tr><td>3 to 4</td><td>Cover</td><td><span class="tag doing">Started: Prototype 1 done</span></td></tr>
-            <tr><td>5</td><td>Storage and board</td><td><span class="tag todo">Not started</span></td></tr>
-            <tr><td>6 to 8</td><td>Pieces and assembly</td><td><span class="tag todo">Not started</span></td></tr>
-            <tr><td>9</td><td>Testing</td><td><span class="tag todo">Not started</span></td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+  <main id="main" class="layout">
+    <div class="page-top">
+      <h1>Book Chess Board <span class="tag doing">In progress</span></h1>
+      <p class="intro">
+        A chess board that folds and looks like a hardcover book on a shelf.
+        This is my final project for Design Technology. Everything below is
+        real progress so far, not a finished write-up, so some parts still
+        say TBD. Pick a chapter tab to read it.
+      </p>
+    </div>
 
     <div class="chapter-book">
       <div class="tabs" role="tablist" aria-label="Project chapters">
@@ -94,63 +78,51 @@
       <section id="brief" role="tabpanel" tabindex="0" aria-labelledby="tab-brief">
         <p class="kicker">Chapter 2</p>
         <h2>The Brief</h2>
-        <div class="table-wrap">
-          <table class="facts">
-            <tbody>
-              <tr>
-                <th scope="row">Objectives</th>
-                <td>
-                  <ul>
-                    <li>Develop a hinge</li>
-                    <li>Design the aesthetics of the book cover</li>
-                    <li>Design how to store the pieces</li>
-                    <li>Design the pieces based on the size requirements of the storage and board</li>
-                    <li>Figure out how to assemble everything</li>
-                    <li>Test and find things to fix</li>
-                    <li>Improve</li>
-                    <li>Final output</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Scope of work</th>
-                <td>
-                  <ul>
-                    <li>Prototype and develop the mechanism</li>
-                    <li>Design and engrave the 64 tile board</li>
-                    <li>Design and build storage for the pieces</li>
-                    <li>Design and build the chess pieces</li>
-                    <li>Assemble, test and finish</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Constraints</th>
-                <td>
-                  <ul>
-                    <li>9 weeks total: 2 for hinge design, 2 more for cover design, 1 for storage and board design, 3 for pieces and assembly, 1 for testing</li>
-                    <li>Limited to school workshop resources</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Design requirements</th>
-                <td>
-                  <ul>
-                    <li>Board</li>
-                    <li>Cover</li>
-                    <li>Pieces</li>
-                    <li>Hinge</li>
-                    <li>Functionality</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Materials and resources</th>
-                <td>Laser cut plywood for the cover case. Hinge material still open (magnets, or a real hinge). 3D printing for the folding board and the hinge mechanism.</td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="boxes">
+          <section class="box">
+            <h3>Objectives</h3>
+            <ul>
+              <li>Develop a hinge</li>
+              <li>Design the aesthetics of the book cover</li>
+              <li>Design how to store the pieces</li>
+              <li>Design the pieces based on the size requirements of the storage and board</li>
+              <li>Figure out how to assemble everything</li>
+              <li>Test and find things to fix</li>
+              <li>Improve</li>
+              <li>Final output</li>
+            </ul>
+          </section>
+          <section class="box">
+            <h3>Scope of work</h3>
+            <ul>
+              <li>Prototype and develop the mechanism</li>
+              <li>Design and engrave the 64 tile board</li>
+              <li>Design and build storage for the pieces</li>
+              <li>Design and build the chess pieces</li>
+              <li>Assemble, test and finish</li>
+            </ul>
+          </section>
+          <section class="box">
+            <h3>Constraints</h3>
+            <ul>
+              <li>9 weeks total: 2 for hinge design, 2 more for cover design, 1 for storage and board design, 3 for pieces and assembly, 1 for testing</li>
+              <li>Limited to school workshop resources</li>
+            </ul>
+          </section>
+          <section class="box">
+            <h3>Design requirements</h3>
+            <ul>
+              <li>Board</li>
+              <li>Cover</li>
+              <li>Pieces</li>
+              <li>Hinge</li>
+              <li>Functionality</li>
+            </ul>
+          </section>
+          <section class="box">
+            <h3>Materials and resources</h3>
+            <p>Laser cut plywood for the cover case. Hinge material still open (magnets, or a real hinge). 3D printing for the folding board and the hinge mechanism.</p>
+          </section>
         </div>
       </section>
 
@@ -273,39 +245,28 @@
       <section id="next" role="tabpanel" tabindex="0" aria-labelledby="tab-next">
         <p class="kicker">Chapter 5</p>
         <h2>What's Next</h2>
-        <div class="table-wrap">
-          <table class="facts">
-            <tbody>
-              <tr>
-                <th scope="row">Open questions</th>
-                <td>
-                  <ul>
-                    <li>Where do the chess pieces get stored now that the cover does not open?</li>
-                    <li>What kind of built-in hinge goes on the folding board: a living hinge like the spine, or a printed knuckle hinge?</li>
-                    <li>Square size is not picked yet. It drives the board and cover dimensions.</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Reflection</th>
-                <td>
-                  TBD. This section will be written once there is a finished piece
-                  and more distance to look back on what worked and what did not.
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Full notes</th>
-                <td>
-                  <ul>
-                    <li><a href="https://github.com/RywnSwn/DT-Portfolio/blob/main/sources/design-brief.md">Design Brief</a></li>
-                    <li><a href="https://github.com/RywnSwn/DT-Portfolio/blob/main/sources/predesign-notes.md">Predesign Notes</a></li>
-                    <li><a href="https://github.com/RywnSwn/DT-Portfolio/blob/main/work/chess-board/hinge-test-1.md">Hinge Test 1 (full notes)</a></li>
-                    <li><a href="https://github.com/RywnSwn/DT-Portfolio/blob/main/work/chess-board/2026-09-25-cover-prototype-1.md">Cover Prototype 1 (full notes)</a></li>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="boxes">
+          <section class="box">
+            <h3>Open questions</h3>
+            <ul>
+              <li>Where do the chess pieces get stored now that the cover does not open?</li>
+              <li>What kind of built-in hinge goes on the folding board: a living hinge like the spine, or a printed knuckle hinge?</li>
+              <li>Square size is not picked yet. It drives the board and cover dimensions.</li>
+            </ul>
+          </section>
+          <section class="box">
+            <h3>Reflection</h3>
+            <p>TBD. This section will be written once there is a finished piece and more distance to look back on what worked and what did not.</p>
+          </section>
+          <section class="box">
+            <h3>Full notes</h3>
+            <ul>
+              <li><a href="https://github.com/RywnSwn/DT-Portfolio/blob/main/sources/design-brief.md">Design Brief</a></li>
+              <li><a href="https://github.com/RywnSwn/DT-Portfolio/blob/main/sources/predesign-notes.md">Predesign Notes</a></li>
+              <li><a href="https://github.com/RywnSwn/DT-Portfolio/blob/main/work/chess-board/hinge-test-1.md">Hinge Test 1 (full notes)</a></li>
+              <li><a href="https://github.com/RywnSwn/DT-Portfolio/blob/main/work/chess-board/2026-09-25-cover-prototype-1.md">Cover Prototype 1 (full notes)</a></li>
+            </ul>
+          </section>
         </div>
       </section>
 
@@ -315,6 +276,24 @@
         <button type="button" id="next-page">Next <span aria-hidden="true">&rarr;</span></button>
       </div>
     </div>
+
+    <aside class="side" aria-labelledby="plan-title">
+      <h2 id="plan-title">The 9 week plan</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th scope="col">Weeks</th><th scope="col">Part</th><th scope="col">Status</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1 to 2</td><td>Hinge</td><td><span class="tag doing">Started: Hinge Test 1 done</span></td></tr>
+            <tr><td>3 to 4</td><td>Cover</td><td><span class="tag doing">Started: Prototype 1 done</span></td></tr>
+            <tr><td>5</td><td>Storage and board</td><td><span class="tag todo">Not started</span></td></tr>
+            <tr><td>6 to 8</td><td>Pieces and assembly</td><td><span class="tag todo">Not started</span></td></tr>
+            <tr><td>9</td><td>Testing</td><td><span class="tag todo">Not started</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </aside>
   </main>
 
   <footer>
