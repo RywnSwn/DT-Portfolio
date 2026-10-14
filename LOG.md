@@ -2,6 +2,10 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-10-14 (3)
+- Did: applied the user's text edits to `work/website-v5/side-projects.html`, exactly as written (typos kept): Bear Fix intro now tells the story with Ywn, the "Next time" note is now the "If I had more time" line, and "Why a clamp" is now two bullets in their voice
+- Next: user keeps sending text edits, apply them exactly. `work/side-projects/bear-fix.md` and `trash-holder.md` still have the old wording
+
 ## 2026-10-14 (2)
 - Did: user said the v2 site looks too good and reads as AI made. Made a "hand coded student" home page draft as an artifact. First draft had a checkerboard background and mini chess board logo, user said no: chess is only the current project, not the whole site. Second draft: plain grey, orange DT box logo, ruler ticks
 - Did: wrote a detailed plan and prompt with the full design spec, then built the home page in a new folder `work/website-v5/` (`index.html`, `style.css`). Old site untouched and still live. Checked at 1280px and 375px, no sideways scroll, all images load

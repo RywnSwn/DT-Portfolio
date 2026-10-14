@@ -19,7 +19,7 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 - Past work written up: phone stand, name tag, iPhone dummy (`work/past-work/`)
 
 ## Next steps
-0. User is reading through the website and rewriting text so it sounds like them. Apply their edits exactly
+0. User is reading through the website and rewriting text so it sounds like them. Apply their edits exactly (Side Projects page: Bear Fix intro, Bear Fix next-time note and Why a clamp done 2026-10-14)
 1. Add cover measurements, then model the case in Fusion and design the engraving and grooves there
 2. Pick square size, then work out board size to fit inside the case with a sliding gap
 3. Pick the board hinge, print hinge test 2 (gap 0.2 to 0.4 mm per side). Check nothing will fuse or fall out (name tag lesson)
