@@ -6,7 +6,7 @@
   --line: #1d1d1b;
   --link: #1b4fb0;
   --visited: #6a2f9e;
-  --accent: #d4582a;
+  --accent: #b8461c;
   --note: #fff6b8;
   --done: #cfe8c9;
   --doing: #fde3a7;
@@ -212,9 +212,12 @@ p {
   margin-bottom: 0;
 }
 
-.now strong {
+.now h2 {
   font-family: var(--mono);
   font-size: 0.95rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .now ul {

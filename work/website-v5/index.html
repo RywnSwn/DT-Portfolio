@@ -4,6 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home | DT Portfolio</title>
+<meta name="description" content="Grade 9 Design Technology portfolio from ISY, Yangon: a Book Chess Board that folds into a hardcover book case, side projects, Fusion 360 tutorials and brainstorming.">
+<link rel="canonical" href="https://rywnswn.github.io/DT-Portfolio/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="My DT Portfolio">
+<meta property="og:title" content="Home | DT Portfolio">
+<meta property="og:description" content="Grade 9 Design Technology portfolio from ISY, Yangon: a Book Chess Board that folds into a hardcover book case, side projects, Fusion 360 tutorials and brainstorming.">
+<meta property="og:url" content="https://rywnswn.github.io/DT-Portfolio/">
+<meta property="og:image" content="https://rywnswn.github.io/DT-Portfolio/images/cover-prototype/angle-1.jpg">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,18 +32,18 @@
   </nav>
 
   <main id="main" class="home">
-    <div class="now">
-      <strong>What I'm doing right now:</strong>
+    <aside class="now" aria-labelledby="now-title">
+      <h2 id="now-title">What I'm doing right now:</h2>
       <ul>
         <li>Measuring cover prototype 1 so I can model the case in Fusion</li>
         <li>Modeling the board with a built in hinge (fold between columns 4 and 5)</li>
         <li>Printing the rest of my trash holder</li>
       </ul>
-      <span class="date">last updated 14 Oct 2026</span>
-    </div>
+      <span class="date">last updated <time datetime="2026-10-14">14 Oct 2026</time></span>
+    </aside>
 
-    <section class="hi">
-      <h2>Hi!</h2>
+    <section class="hi" aria-labelledby="hi-title">
+      <h2 id="hi-title">Hi!</h2>
       <p>
         This is my DT portfolio. My final project is a chess board that folds
         like a book. It is still being designed and built, so a lot of this
@@ -47,11 +55,11 @@
       </p>
     </section>
 
-    <section class="work">
-      <h2>Working on now: Book Chess Board</h2>
+    <section class="work" aria-labelledby="work-title">
+      <h2 id="work-title">Working on now: Book Chess Board</h2>
       <div class="project">
         <figure>
-          <img src="../../sources/images/cover-prototype/angle-1.jpg" alt="Laser cut plywood case shaped like a hardcover book, with a living hinge spine" width="1500" height="2000">
+          <img src="images/cover-prototype/angle-1.jpg" alt="Laser cut plywood case shaped like a hardcover book, with a living hinge spine" width="1500" height="2000">
           <figcaption>Cover prototype 1. Living hinge pattern by Mr Yetihad.</figcaption>
         </figure>
         <div>
@@ -75,30 +83,30 @@
               </tbody>
             </table>
           </div>
-          <p><a class="big-link" href="book-chess-board.html">Read the whole design process &rarr;</a></p>
+          <p><a class="big-link" href="book-chess-board.html">Read the whole design process <span aria-hidden="true">&rarr;</span></a></p>
         </div>
       </div>
     </section>
 
-    <section class="other">
-      <h2>Other stuff I made</h2>
+    <section class="other" aria-labelledby="other-title">
+      <h2 id="other-title">Other stuff I made</h2>
       <ul class="others">
         <li>
-          <img class="thumb" src="../../sources/images/trash-holder/v1-fusion.jpg" alt="" width="110" height="80">
+          <img class="thumb" src="images/trash-holder/v1-fusion.jpg" alt="" width="110" height="80">
           <div>
             <h3><a href="side-projects.html">Side Projects</a></h3>
             <p>These ones I make to improve my life, or I'm just bored.</p>
           </div>
         </li>
         <li>
-          <img class="thumb" src="../../sources/images/phone-stand/angle-1.jpg" alt="" width="110" height="80">
+          <img class="thumb" src="images/phone-stand/angle-1.jpg" alt="" width="110" height="80">
           <div>
             <h3><a href="past-work.html">Tutorial Projects</a></h3>
             <p>Our first projects in DT to understand fusion.</p>
           </div>
         </li>
         <li>
-          <img class="thumb" src="../../sources/images/brainstorm/dt-ideas-brainstorm.jpg" alt="" width="110" height="80">
+          <img class="thumb" src="images/brainstorm/dt-ideas-brainstorm.jpg" alt="" width="110" height="80">
           <div>
             <h3><a href="brainstorm.html">My Brainstorming Paper</a></h3>
             <p>My papers where I wrote ideas.</p>
@@ -110,7 +118,7 @@
 
   <footer>
     <span>Made by me with HTML and CSS. Code is on <a href="https://github.com/RywnSwn/DT-Portfolio">GitHub</a>.</span>
-    <span class="date">14 Oct 2026</span>
+    <span class="date"><time datetime="2026-10-14">14 Oct 2026</time></span>
   </footer>
 </body>
 </html>
