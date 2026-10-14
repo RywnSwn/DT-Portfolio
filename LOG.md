@@ -15,7 +15,8 @@ One short entry per session. Newest at the top. Only add, never rewrite old entr
 - Did: user said sub pages were just one long scroll. Gave them the home page's modular layout: title row, main column plus 320px sidebar, short sections side by side (`.cols`), chess Brief and What's Next as bordered boxes (`.boxes`), 9 week plan in the chess page sidebar, trash holder Testing and Next steps in the sidebar, Name Tag in the Tutorials sidebar, brainstorm photo in the sidebar. Galleries 2 per row on phones. Word diff shows no text lost, audit clean
 - Did: added Bear Fix to the Side Projects page (before/after Blender screenshots, triangle counts, how I did it, STL links, credit that the model is the classmate's). Side Projects sidebar is now a list of projects with status tags
 - Did: user found the text hard to read. Switched body font to Atkinson Hyperlegible Next and notes/dates to Atkinson Hyperlegible Mono (Google Fonts), headings stay Georgia. Body 17px, bigger captions and tags
-- Next: check the live site, verify in Search Console, decide what to do with the old `work/website/`
+- Did: put the user's first name on the site so it can be found on Google: titles "... | Ryan's DT Portfolio", header "Ryan's DT Portfolio", home description starts with "Ryan's". First name only, no full name
+- Next: user reads through every page and rewrites text in their own voice. Verify in Search Console, submit sitemap, request indexing. Decide what to do with the old `work/website/`
 
 ## 2026-10-14
 - Did: tried two new websites (v3 chess colours with a fold board, v4 simple green). User didn't like either. Both deleted, the bookshelf site (v2) is back in `work/website/` and the workflow publishes it again, same as before today
