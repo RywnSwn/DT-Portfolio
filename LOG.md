@@ -8,7 +8,8 @@ One short entry per session. Newest at the top. Only add, never rewrite old entr
 - Decided: v5 goes in its own folder, home page first, other pages only after the user approves it
 - Did: user said the centered floating box looks AI made. Made v5 full width: header, nav and footer span the screen, main column on the left, sidebar on the right (right now note, other projects), stacks on phones. Saved as a rule
 - Did: removed the orange tilted DT logo box from the header (user: AI vibes). Header is now just the title and subtitle over the ruler ticks
-- Next: user feedback on the v5 home page
+- Did: built the other 4 v5 pages (Book Chess Board, Side Projects, Tutorials, Brainstorm) with 4 subagents in parallel, after writing the shared CSS first so they did not clash. Checked: no text lost (word diff vs old pages, only the plan's "N weeks" became week ranges), all images load, no sideways scroll at 375px, chapter tabs, Previous/Next, arrow keys and #self-eval-2 work
+- Next: user checks all v5 pages, then decide on switching the live site
 
 ## 2026-10-14
 - Did: tried two new websites (v3 chess colours with a fold board, v4 simple green). User didn't like either. Both deleted, the bookshelf site (v2) is back in `work/website/` and the workflow publishes it again, same as before today

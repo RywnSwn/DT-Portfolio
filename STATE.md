@@ -13,7 +13,7 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 - Hinge Test 1 done (print-in-place knuckle hinge), live joint sim didn't work (`work/chess-board/hinge-test-1.md`)
 - Design story writeup roughly covers steps 1 to 6 (`work/chess-board/design-story.md`)
 - Website v2 in `work/website/`: "book on the shelf" theme. Nav is book spines on a shelf, CSS drawn chess book on home that opens on hover, chapter cover cards, 9 week plan bar, paper card sections, polaroid photos. Photo paths fixed for the live site (workflow copies `sources/images` to `images/`). Home book: cover opens smoothly on hover, pawn removed (2026-10-13). Book Chess Board page is now 5 chapter tabs (Idea, Brief, Hinge, Cover, What's Next) with Previous/Next page buttons instead of one long scroll (2026-10-13). Needs Settings > Pages > Source set to GitHub Actions, then live at rywnswn.github.io/DT-Portfolio
-- Website v5 (trying): new "hand coded student" look in `work/website-v5/`. Only `index.html` + `style.css` so far, waiting for the user's feedback before any other page. Full width, no centered box. Not chess themed (plain text title, ruler ticks under the header, boxed nav strip, main column with intro and chess board section, sidebar with yellow "right now" note and other projects, stacks on phones). Nav links still point to the old pages in `work/website/`. Not live, the workflow still publishes `work/website/`
+- Website v5 (trying): new "hand coded student" look in `work/website-v5/`, all 5 pages done (2026-10-14). Full width, no centered box, not chess themed, plain text title over ruler ticks, boxed nav, yellow notes, plain tables. Chess page keeps the 5 chapter tabs and Previous/Next. Images use `../../sources/images/` paths for now. Not live, the workflow still publishes `work/website/`
 - Side project: trash holder for used tissues. One clamp printed, tub modeled, second clamp + 2 screws still to print. Fusion screenshots of v1, the cover and the 2 screws added (2026-10-14) (`work/side-projects/trash-holder.md`)
 - Side project: Bear Fix, fixed a classmate's toy model in Blender, before/after logged (`work/side-projects/bear-fix.md`). remeshed, subdivide looked bad, sculpting skipped
 - Past work written up: phone stand, name tag, iPhone dummy (`work/past-work/`)
@@ -23,7 +23,7 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 2. Pick square size, then work out board size to fit inside the case with a sliding gap
 3. Pick the board hinge, print hinge test 2 (gap 0.2 to 0.4 mm per side). Check nothing will fuse or fall out (name tag lesson)
 4. Update the design brief: wood is crossed out but the cover is plywood. Fill Success Criteria 2.2 to 2.4 and Inspiration
-5. Website v5: user checks the home page. If approved, build the other 4 pages in `work/website-v5/` one at a time, then ask before switching the workflow to it and replacing the 2026-10-08 look rule
+5. Website v5: user checks all pages. If approved: change image paths to `images/...`, switch `.github/workflows/pages.yml` to `work/website-v5` (ask first), replace the 2026-10-08 look rule
 6. Turn on GitHub Pages (Settings > Pages > Source: GitHub Actions) and check the live site. Bear Fix is not on the Side Projects page yet
 7. Trash holder: print the tub, second clamp and screws, send photos and how the fit went
 8. Credit the iPhone dummy model source and creator, add name tag photos
@@ -34,4 +34,4 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 - Board hinge: living hinge strip, printed knuckle hinge, or bought hinges?
 - How much sliding gap between board and case?
 - Due dates for the project and the portfolio?
-- Website v5 home page: keep the ruler ticks, tilted note and orange? Changes before the other pages?
+- Website v5: happy with all pages? Switch the live site to it?

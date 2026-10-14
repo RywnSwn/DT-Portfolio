@@ -262,6 +262,7 @@ figcaption {
 .table-wrap {
   overflow-x: auto;
   margin: 14px 0;
+  max-width: 900px;
 }
 
 table {
@@ -401,6 +402,7 @@ article + article {
   grid-template-columns: minmax(0, 1fr) 280px;
   gap: 24px;
   align-items: start;
+  max-width: 1000px;
   margin: 14px 0;
 }
 
@@ -412,7 +414,7 @@ article + article {
   min-width: 0;
 }
 
-.split > div > h3:first-child {
+.split > * > :first-child {
   margin-top: 0;
 }
 
@@ -429,7 +431,7 @@ article + article {
 }
 
 figure.single {
-  max-width: 520px;
+  max-width: 400px;
   margin: 14px 0;
 }
 
