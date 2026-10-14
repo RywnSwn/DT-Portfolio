@@ -35,6 +35,9 @@ This grew out of the "tissue holder under table" idea in `sources/brainstorm-202
 - The tub replaces the trash bag
 
 ## Making
+![The 2 clamp screws](../../sources/images/trash-holder/screws-fusion.jpg)
+
+- The 2 screws: each has a bumpy (knurled) head so it is easy to twist by hand, and a thread that goes into the clamp to tighten it onto the desk
 - Modeled in Fusion 360, about 1 day per part
 - Side project: I work on it when I am a bit burnt out on the chess board
 - Printed so far: 1 part (in the photos, black filament). It came out fine
