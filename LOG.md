@@ -8,6 +8,7 @@ One short entry per session. Newest at the top. Only add, never rewrite old entr
 - Did: tried a design pass on v3 (board at the top, list instead of cards, slab font). User didn't like it, reverted back to the first v3
 - Did: added the trash holder v1 Fusion screenshot to the writeup and Side Projects page, with how v1 works
 - Did: added the trash holder screws screenshot (2 screws with bumpy heads) to the writeup and Side Projects page
+- Did: added the trash holder cover screenshot (square lid, X ridges, knob in the middle)
 - Next: user checks v3, turn on GitHub Pages, then cover measurements
 
 ## 2026-10-13 (2)
