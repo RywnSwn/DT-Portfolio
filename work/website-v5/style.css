@@ -12,8 +12,8 @@
   --doing: #fde3a7;
   --todo: #eeeeea;
   --head: Georgia, "Times New Roman", serif;
-  --body: Verdana, Geneva, Tahoma, sans-serif;
-  --mono: "Courier New", Courier, monospace;
+  --body: "Atkinson Hyperlegible Next", Verdana, Geneva, Tahoma, sans-serif;
+  --mono: "Atkinson Hyperlegible Mono", "Courier New", Courier, monospace;
 }
 
 * {
@@ -25,7 +25,7 @@ body {
   background: var(--page);
   color: var(--ink);
   font-family: var(--body);
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.6;
 }
 
@@ -259,7 +259,7 @@ figure img {
 }
 
 figcaption {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: var(--soft);
   padding-top: 6px;
 }
@@ -299,7 +299,7 @@ td:first-child {
   border: 1px solid var(--line);
   font-family: var(--body);
   font-weight: normal;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   line-height: 1.6;
   vertical-align: middle;
   background: var(--page);
@@ -592,6 +592,15 @@ main.layout {
 
 .box > :last-child {
   margin-bottom: 0;
+}
+
+.project-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.project-list li {
+  margin-bottom: 8px;
 }
 
 .side figure {

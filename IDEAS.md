@@ -20,7 +20,7 @@ Tags: [open] not tried, [trying] in progress, [kept] now part of the project, [d
 - [dropped] Orange tilted DT logo box with hard shadow: AI vibes (2026-10-14)
 - [dropped] Centered floating page box: looks AI made (2026-10-14)
 - [dropped] Chess themed site (checkerboard background, chess logo): chess is only the current project, more will come (2026-10-14)
-- [open] Add Bear Fix to the Side Projects page, with before/after screenshots (2026-10-08)
+- [kept] Add Bear Fix to the Side Projects page, with before/after screenshots (done 2026-10-14)
 
 ## Side projects
 - [trying] Trash holder v2: two desk clamps with a tub in the middle, modular for different tables (`work/side-projects/trash-holder.md`)

@@ -13,6 +13,8 @@ One short entry per session. Newest at the top. Only add, never rewrite old entr
 - Decided: v5 is the live site, v2 look rule replaced in RULES
 - Did: added the Google Search Console verification file `work/website-v5/googlebdcb4a83493c9265.html` (do not edit or delete it, Google checks it)
 - Did: user said sub pages were just one long scroll. Gave them the home page's modular layout: title row, main column plus 320px sidebar, short sections side by side (`.cols`), chess Brief and What's Next as bordered boxes (`.boxes`), 9 week plan in the chess page sidebar, trash holder Testing and Next steps in the sidebar, Name Tag in the Tutorials sidebar, brainstorm photo in the sidebar. Galleries 2 per row on phones. Word diff shows no text lost, audit clean
+- Did: added Bear Fix to the Side Projects page (before/after Blender screenshots, triangle counts, how I did it, STL links, credit that the model is the classmate's). Side Projects sidebar is now a list of projects with status tags
+- Did: user found the text hard to read. Switched body font to Atkinson Hyperlegible Next and notes/dates to Atkinson Hyperlegible Mono (Google Fonts), headings stay Georgia. Body 17px, bigger captions and tags
 - Next: check the live site, verify in Search Console, decide what to do with the old `work/website/`
 
 ## 2026-10-14
