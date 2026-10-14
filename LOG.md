@@ -2,6 +2,12 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-10-14 (2)
+- Did: user said the v2 site looks too good and reads as AI made. Made a "hand coded student" home page draft as an artifact. First draft had a checkerboard background and mini chess board logo, user said no: chess is only the current project, not the whole site. Second draft: plain grey, orange DT box logo, ruler ticks
+- Did: wrote a detailed plan and prompt with the full design spec, then built the home page in a new folder `work/website-v5/` (`index.html`, `style.css`). Old site untouched and still live. Checked at 1280px and 375px, no sideways scroll, all images load
+- Decided: v5 goes in its own folder, home page first, other pages only after the user approves it
+- Next: user feedback on the v5 home page
+
 ## 2026-10-14
 - Did: tried two new websites (v3 chess colours with a fold board, v4 simple green). User didn't like either. Both deleted, the bookshelf site (v2) is back in `work/website/` and the workflow publishes it again, same as before today
 - Did: added trash holder Fusion screenshots (v1, the cover, the 2 screws) to `sources/images/trash-holder/`, the writeup and the Side Projects page. v1 is one clamp with a ring the bag goes through, inner ring held by supports, screw to tighten
