@@ -2,6 +2,9 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-10-17
+- Did: deleted `README.md` (it said "Starting a new AI chat?"). Nothing else referenced it
+
 ## 2026-10-14 (3)
 - Did: applied the user's text edits to `work/website-v5/side-projects.html`, exactly as written (typos kept): Bear Fix intro now tells the story with Ywn, the "Next time" note is now the "If I had more time" line, and "Why a clamp" is now two bullets in their voice
 - Did: Name Tag page (`past-work.html`) Chinese-style pattern line rewritten in their words
