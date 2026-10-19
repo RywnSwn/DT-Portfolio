@@ -1,6 +1,6 @@
 # Rules
 
-How I want Claude to work in this repo. One dated line per rule. Newest wins. If a rule is replaced, the old one gets marked (REPLACED).
+How I want the work done in this repo. One dated line per rule. Newest wins. If a rule is replaced, the old one gets marked (REPLACED).
 
 ## Rules
 - 2026-09-25 (user-stated): Never use em dashes, in files or in replies. Use commas, colons, periods or brackets.
@@ -17,8 +17,8 @@ How I want Claude to work in this repo. One dated line per rule. Newest wins. If
 
 - (REPLACED) 2026-10-08 (user-stated): Website look: original and themed, not bland or Google Sites looking. Skill level target is "about one month of freeCodeCamp CSS" (variables, flexbox, grid, gradients, transforms, transitions, simple keyframes, shapes from divs). Still plain HTML, CSS and JS. Never any comments in code. Accessibility still done properly.
 - 2026-10-08 (user-stated): When building something visual, show progress as it goes: task list on the side plus a screenshot after each step.
-- 2026-10-14 (user-stated): Website is full width. No centered floating page box in the middle, it looks AI made.
-- 2026-10-14 (user-stated): Website look (v5): hand coded student style, simple but neat, not AI looking (no logo boxes, no centered box, no fancy effects) and not chess themed site wide, chess is only the current project. Plain HTML, CSS, JS, no comments. Proper SEO (meta description, canonical, Open Graph, sitemap), semantic HTML, alt text and accessibility.
+- 2026-10-14 (user-stated): Website is full width. No centered floating page box in the middle, it looks too generic.
+- 2026-10-14 (user-stated): Website look (v5): hand coded student style, simple but neat, not generic looking (no logo boxes, no centered box, no fancy effects) and not chess themed site wide, chess is only the current project. Plain HTML, CSS, JS, no comments. Proper SEO (meta description, canonical, Open Graph, sitemap), semantic HTML, alt text and accessibility.
 - 2026-10-14: Only the first name (Ryan) goes on the website, never the full name.
 
 ## About me

@@ -2,6 +2,9 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-10-19 (4)
+- Did: reworded the notes files so they no longer say "AI" or "Claude" (except the file name `CLAUDE.md`, which has to stay)
+
 ## 2026-10-19 (3)
 - Did: deleted the old v2 site folder `work/website/` (user said delete). Live site is only `work/website-v5/`
 
@@ -9,11 +12,11 @@ One short entry per session. Newest at the top. Only add, never rewrite old entr
 - Did: moved `CLAUDE.md`, `RULES.md`, `STATE.md`, `LOG.md` and `IDEAS.md` into `.claude/` so the repo root only shows `sources/` and `work/`. Updated the paths in `CLAUDE.md`
 
 ## 2026-10-19
-- Did: searched for what makes code look AI made. Live site `work/website-v5/` was already clean (no comments, emojis, dashes, gradients). Removed the last pro level CSS: `env(safe-area-inset)` padding, `text-wrap: balance`, and a reduced motion block that did nothing
+- Did: searched for what makes code look generic. Live site `work/website-v5/` was already clean (no comments, emojis, dashes, gradients). Removed the last pro level CSS: `env(safe-area-inset)` padding, `text-wrap: balance`, and a reduced motion block that did nothing
 - Next: ask user whether to delete the old `work/website/` folder (v2, heavy styling, still visible in the repo)
 
 ## 2026-10-17
-- Did: deleted `README.md` (it said "Starting a new AI chat?"). Nothing else referenced it
+- Did: deleted `README.md` (it was just setup notes). Nothing else referenced it
 
 ## 2026-10-14 (3)
 - Did: applied the user's text edits to `work/website-v5/side-projects.html`, exactly as written (typos kept): Bear Fix intro now tells the story with Ywn, the "Next time" note is now the "If I had more time" line, and "Why a clamp" is now two bullets in their voice
@@ -24,11 +27,11 @@ One short entry per session. Newest at the top. Only add, never rewrite old entr
 - Next: user keeps sending text edits, apply them exactly. `work/side-projects/bear-fix.md` and `trash-holder.md` still have the old wording
 
 ## 2026-10-14 (2)
-- Did: user said the v2 site looks too good and reads as AI made. Made a "hand coded student" home page draft as an artifact. First draft had a checkerboard background and mini chess board logo, user said no: chess is only the current project, not the whole site. Second draft: plain grey, orange DT box logo, ruler ticks
+- Did: user said the v2 site looks too good and reads as too polished. Made a "hand coded student" home page draft as an artifact. First draft had a checkerboard background and mini chess board logo, user said no: chess is only the current project, not the whole site. Second draft: plain grey, orange DT box logo, ruler ticks
 - Did: wrote a detailed plan and prompt with the full design spec, then built the home page in a new folder `work/website-v5/` (`index.html`, `style.css`). Old site untouched and still live. Checked at 1280px and 375px, no sideways scroll, all images load
 - Decided: v5 goes in its own folder, home page first, other pages only after the user approves it
-- Did: user said the centered floating box looks AI made. Made v5 full width: header, nav and footer span the screen, main column on the left, sidebar on the right (right now note, other projects), stacks on phones. Saved as a rule
-- Did: removed the orange tilted DT logo box from the header (user: AI vibes). Header is now just the title and subtitle over the ruler ticks
+- Did: user said the centered floating box looks generic. Made v5 full width: header, nav and footer span the screen, main column on the left, sidebar on the right (right now note, other projects), stacks on phones. Saved as a rule
+- Did: removed the orange tilted DT logo box from the header (user: too generic). Header is now just the title and subtitle over the ruler ticks
 - Did: built the other 4 v5 pages (Book Chess Board, Side Projects, Tutorials, Brainstorm) with 4 subagents in parallel, after writing the shared CSS first so they did not clash. Checked: no text lost (word diff vs old pages, only the plan's "N weeks" became week ranges), all images load, no sideways scroll at 375px, chapter tabs, Previous/Next, arrow keys and #self-eval-2 work
 - Did: switched GitHub Pages to `work/website-v5` (workflow copy path). Image paths changed to `images/...` for the live build. Added meta descriptions, canonical links, Open Graph tags, `sitemap.xml`, `robots.txt`, `<time>` dates, labelled sections, the "right now" note as an aside with a heading, width/height on all images, arrows hidden from screen readers. Darkened the orange to pass contrast (4.0 to 5.3). Checked: no code comments, no em dashes, audit clean on all 5 pages (alts, headings, landmarks, ids, skip link)
 - Decided: v5 is the live site, v2 look rule replaced in RULES

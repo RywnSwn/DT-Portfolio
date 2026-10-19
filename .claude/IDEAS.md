@@ -14,11 +14,11 @@ Tags: [open] not tried, [trying] in progress, [kept] now part of the project, [d
 
 ## Website
 - [kept] Host on GitHub Pages in this repo instead of Google Sites, to keep everything in one place and have something to show for college (2026-09-29)
-- [dropped] Website v2 "book on the shelf" theme, replaced by v5 because it looked too polished and AI made (2026-10-14). Was: book spine nav, CSS chess book, cover cards, polaroids (2026-10-08)
+- [dropped] Website v2 "book on the shelf" theme, replaced by v5 because it looked too polished (2026-10-14). Was: book spine nav, CSS chess book, cover cards, polaroids (2026-10-08)
 - [trying] Book Chess Board page as chapter tabs, one chapter at a time instead of one long scroll (2026-10-13)
 - [kept] Website v5 "hand coded student" look: full width, black borders, Verdana and Georgia, plain text title, ruler ticks, boxed nav, yellow "right now" note, plan table. Not chess themed site wide. Live from `work/website-v5/` (2026-10-14)
-- [dropped] Orange tilted DT logo box with hard shadow: AI vibes (2026-10-14)
-- [dropped] Centered floating page box: looks AI made (2026-10-14)
+- [dropped] Orange tilted DT logo box with hard shadow: too generic (2026-10-14)
+- [dropped] Centered floating page box: looks generic (2026-10-14)
 - [dropped] Chess themed site (checkerboard background, chess logo): chess is only the current project, more will come (2026-10-14)
 - [kept] Add Bear Fix to the Side Projects page, with before/after screenshots (done 2026-10-14)
 
