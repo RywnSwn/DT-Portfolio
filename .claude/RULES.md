@@ -7,6 +7,7 @@ How I want the work done in this repo. One dated line per rule. Newest wins. If 
 - 2026-09-25 (user-stated): All commits go directly to `main`. No branches, no pull requests.
 - 2026-09-25 (user-stated): `CLAUDE.md` must never be removed or rewritten entirely. Only edit it when I say so.
 - 2026-10-19 (user-stated): `CLAUDE.md` now lives at `.claude/CLAUDE.md` so it is not in the repo root. Keep it there. Also `RULES.md`, `STATE.md`, `LOG.md` and `IDEAS.md` live in `.claude/`, not the repo root
+- 2026-10-19 (user-stated): Never add "Co-Authored-By" or "Claude-Session" lines (or any link to a chat) to commit messages. Keep commit messages short and plain, written like a student would
 - 2026-09-25: Keep writing short and plain. Bullet points over long paragraphs.
 - 2026-09-25: Don't invent measurements, decisions or results. Unknown means "TBD" or an open question in `STATE.md`.
 - 2026-09-25: Photos go in `sources/images/<topic>/`. File names are lowercase with hyphens, dated notes start with `YYYY-MM-DD-`.

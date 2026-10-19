@@ -2,6 +2,9 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-10-19 (5)
+- Did: added a rule to `RULES.md`: no Co-Authored-By or session lines in commit messages. Old commits keep theirs
+
 ## 2026-10-19 (4)
 - Did: reworded the notes files so they no longer say "AI" or "Claude" (except the file name `CLAUDE.md`, which has to stay)
 
