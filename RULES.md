@@ -6,6 +6,7 @@ How I want Claude to work in this repo. One dated line per rule. Newest wins. If
 - 2026-09-25 (user-stated): Never use em dashes, in files or in replies. Use commas, colons, periods or brackets.
 - 2026-09-25 (user-stated): All commits go directly to `main`. No branches, no pull requests.
 - 2026-09-25 (user-stated): `CLAUDE.md` must never be removed or rewritten entirely. Only edit it when I say so.
+- 2026-10-19 (user-stated): `CLAUDE.md` now lives at `.claude/CLAUDE.md` so it is not in the repo root. Keep it there
 - 2026-09-25: Keep writing short and plain. Bullet points over long paragraphs.
 - 2026-09-25: Don't invent measurements, decisions or results. Unknown means "TBD" or an open question in `STATE.md`.
 - 2026-09-25: Photos go in `sources/images/<topic>/`. File names are lowercase with hyphens, dated notes start with `YYYY-MM-DD-`.
