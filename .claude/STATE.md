@@ -12,7 +12,7 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 - Board: work in progress, being modeled in Fusion. Hard part (user): hinge has to be small and the board has to hold pieces at the same time. Built-in hinge, type TBD. Fold between columns 4 and 5
 - Hinge Test 1 done (print-in-place knuckle hinge), live joint sim didn't work (`work/chess-board/hinge-test-1.md`)
 - Design story writeup roughly covers steps 1 to 6 (`work/chess-board/design-story.md`)
-- Website v2 (old bookshelf theme) still in `work/website/` but no longer published
+- Old v2 site folder `work/website/` deleted 2026-10-19
 - Website v5 is the live site (2026-10-14): `work/website-v5/`, published by the Pages workflow at rywnswn.github.io/DT-Portfolio. Hand coded student look, full width, not chess themed, every page modular (main column + sidebar, sections side by side). Fonts: Atkinson Hyperlegible Next (body), Atkinson Hyperlegible Mono (notes), Georgia (headings). Bear Fix is on the Side Projects page. SEO meta, canonical, Open Graph, `sitemap.xml`, `robots.txt`, semantic landmarks, alt text and sizes on every image, contrast checked. Images use `images/...` (workflow copies `sources/images`), so opening the files straight from the repo shows no photos. Google Search Console verification file `googlebdcb4a83493c9265.html` is in the site root, keep it
 - Side project: trash holder for used tissues. One clamp printed, tub modeled, second clamp + 2 screws still to print. Fusion screenshots of v1, the cover and the 2 screws added (2026-10-14) (`work/side-projects/trash-holder.md`)
 - Side project: Bear Fix, fixed a classmate's toy model in Blender, before/after logged (`work/side-projects/bear-fix.md`). remeshed, subdivide looked bad, sculpting skipped
@@ -24,7 +24,6 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 2. Pick square size, then work out board size to fit inside the case with a sliding gap
 3. Pick the board hinge, print hinge test 2 (gap 0.2 to 0.4 mm per side). Check nothing will fuse or fall out (name tag lesson)
 4. Update the design brief: wood is crossed out but the cover is plywood. Fill Success Criteria 2.2 to 2.4 and Inspiration
-5. Check the live site after the Pages run. Decide whether to delete the old `work/website/` folder (ask first)
 6. Turn on GitHub Pages (Settings > Pages > Source: GitHub Actions) and check the live site.
 7. Trash holder: print the tub, second clamp and screws, send photos and how the fit went
 8. Credit the iPhone dummy model source and creator, add name tag photos
@@ -35,4 +34,3 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 - Board hinge: living hinge strip, printed knuckle hinge, or bought hinges?
 - How much sliding gap between board and case?
 - Due dates for the project and the portfolio?
-- Delete the old v2 site folder `work/website/` or keep it as an archive?
