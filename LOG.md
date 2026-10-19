@@ -2,6 +2,10 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-10-19
+- Did: searched for what makes code look AI made. Live site `work/website-v5/` was already clean (no comments, emojis, dashes, gradients). Removed the last pro level CSS: `env(safe-area-inset)` padding, `text-wrap: balance`, and a reduced motion block that did nothing
+- Next: ask user whether to delete the old `work/website/` folder (v2, heavy styling, still visible in the repo)
+
 ## 2026-10-17
 - Did: deleted `README.md` (it said "Starting a new AI chat?"). Nothing else referenced it
 
