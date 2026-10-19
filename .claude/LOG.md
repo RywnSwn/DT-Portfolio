@@ -2,6 +2,9 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-10-19 (2)
+- Did: moved `CLAUDE.md`, `RULES.md`, `STATE.md`, `LOG.md` and `IDEAS.md` into `.claude/` so the repo root only shows `sources/` and `work/`. Updated the paths in `CLAUDE.md`
+
 ## 2026-10-19
 - Did: searched for what makes code look AI made. Live site `work/website-v5/` was already clean (no comments, emojis, dashes, gradients). Removed the last pro level CSS: `env(safe-area-inset)` padding, `text-wrap: balance`, and a reduced motion block that did nothing
 - Next: ask user whether to delete the old `work/website/` folder (v2, heavy styling, still visible in the repo)

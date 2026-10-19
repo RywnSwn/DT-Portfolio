@@ -9,15 +9,15 @@ These come straight from me. They override anything else in this file.
 
 This repo is the memory for my Design Technology (DT) portfolio. It uses the **project-rag** layout. Every new chat starts with no memory, so read the files first.
 
-New rules and preferences go in `RULES.md` as a dated line, not in this file.
+New rules and preferences go in `.claude/RULES.md` as a dated line, not in this file.
 
 ## Every session
 1. `git pull origin main`
-2. Read `RULES.md`, `STATE.md`, and the newest ~5 entries of `LOG.md`.
+2. Read `.claude/RULES.md`, `.claude/STATE.md`, and the newest ~5 entries of `.claude/LOG.md`.
 3. Open files in `sources/` or `work/` only when the task needs them.
-4. Before the chat ends: rewrite `STATE.md`, add one entry to the top of `LOG.md`, update `IDEAS.md` tags, commit and push to `main`.
+4. Before the chat ends: rewrite `.claude/STATE.md`, add one entry to the top of `.claude/LOG.md`, update `.claude/IDEAS.md` tags, commit and push to `main`.
 
-## Layout
+## Layout (the first four are inside `.claude/`)
 - `RULES.md`: how I want Claude to work, plus about me
 - `STATE.md`: where things stand now (overwritten each session)
 - `LOG.md`: one short entry per session, newest at top
