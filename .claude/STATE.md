@@ -1,4 +1,4 @@
-# State (updated 2026-10-14)
+# State (updated 2026-11-02)
 
 ## Goal
 Book Chess Board for DT: a chess board that folds in half and slides into a static case shaped like a hardcover book, so it sits on a bookshelf. Plus a portfolio website (GitHub Pages) showing the whole design process.
@@ -14,6 +14,7 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 - Design story writeup roughly covers steps 1 to 6 (`work/chess-board/design-story.md`)
 - Old v2 site folder `work/website/` deleted 2026-10-19
 - Website v5 is the live site (2026-10-14): `work/website-v5/`, published by the Pages workflow at rywnswn.github.io/DT-Portfolio. Hand coded student look, full width, not chess themed, every page modular (main column + sidebar, sections side by side). Fonts: Atkinson Hyperlegible Next (body), Atkinson Hyperlegible Mono (notes), Georgia (headings). Bear Fix is on the Side Projects page. SEO meta, canonical, Open Graph, `sitemap.xml`, `robots.txt`, semantic landmarks, alt text and sizes on every image, contrast checked. Images use `images/...` (workflow copies `sources/images`), so opening the files straight from the repo shows no photos. Google Search Console verification file `googlebdcb4a83493c9265.html` is in the site root, keep it
+- Home page redone 2026-11-02 just for fun with a high production "cutting mat" look and animated 3D book case (`index.html`, `home.css`, `home.js`). Old home page backed up as `work/website-v5/index-backup-2026-11-02.html`. User still deciding which one to keep
 - Side project: trash holder for used tissues. One clamp printed, tub modeled, second clamp + 2 screws still to print. Fusion screenshots of v1, the cover and the 2 screws added (2026-10-14) (`work/side-projects/trash-holder.md`)
 - Side project: Bear Fix, fixed a classmate's toy model in Blender, before/after logged (`work/side-projects/bear-fix.md`). remeshed, subdivide looked bad, sculpting skipped
 - Past work written up: phone stand, name tag, iPhone dummy (`work/past-work/`)

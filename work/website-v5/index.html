@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home | Ryan's DT Portfolio</title>
 <meta name="description" content="Ryan's Grade 9 Design Technology portfolio: a Book Chess Board that folds into a hardcover book case, side projects, Fusion 360 tutorials and brainstorming.">
+<meta name="theme-color" content="#1e4a3e">
 <link rel="canonical" href="https://rywnswn.github.io/DT-Portfolio/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Ryan's DT Portfolio">
@@ -14,16 +15,14 @@
 <meta property="og:image" content="https://rywnswn.github.io/DT-Portfolio/images/cover-prototype/angle-1.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400;700&family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,700;1,400&display=swap">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&display=swap">
+<link rel="stylesheet" href="home.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
-  <header>
-    <h1>Ryan's DT Portfolio</h1>
-    <p class="sub">Grade 9 Design Technology</p>
-  </header>
 
+<header class="top">
+  <a class="name" href="index.html">Ryan's DT Portfolio</a>
   <nav aria-label="Main navigation">
     <ul>
       <li><a href="index.html" aria-current="page">Home</a></li>
@@ -33,91 +32,167 @@
       <li><a href="brainstorm.html">Brainstorm</a></li>
     </ul>
   </nav>
+</header>
 
-  <main id="main" class="home">
-    <aside class="now" aria-labelledby="now-title">
-      <h2 id="now-title">What I'm doing right now:</h2>
-      <ul>
-        <li>Measuring cover prototype 1 so I can model the case in Fusion</li>
-        <li>Modeling the board with a built in hinge (fold between columns 4 and 5)</li>
-        <li>Printing the rest of my trash holder</li>
-      </ul>
-      <span class="date">last updated <time datetime="2026-10-14">14 Oct 2026</time></span>
-    </aside>
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="ruler" aria-hidden="true">
+      <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span><span>32</span><span>33</span><span>34</span><span>35</span><span>36</span><span>37</span><span>38</span><span>39</span><span>40</span>
+    </div>
 
-    <section class="hi" aria-labelledby="hi-title">
-      <h2 id="hi-title">Hi!</h2>
-      <p>
-        This is my DT portfolio. My final project is a chess board that folds
-        like a book. It is still being designed and built, so a lot of this
-        is a work in progress rather than a finished thing.
+    <div class="hero-text">
+      <p class="kicker">Grade 9 Design Technology</p>
+      <h1 id="hero-title">A chess board that hides on a bookshelf.</h1>
+      <p class="lede">
+        My first big project this year. A chess board that folds in half
+        and slides into a case shaped like a hardcover book, so it can sit
+        on a bookshelf with real books.
       </p>
-    </section>
+      <div class="actions">
+        <button type="button" class="play" id="play" aria-controls="scene">Put it back in the case</button>
+        <a class="read" href="book-chess-board.html">Read the whole design process</a>
+      </div>
+    </div>
 
-    <section class="work" aria-labelledby="work-title">
-      <h2 id="work-title">Working on now: Book Chess Board</h2>
-      <div class="project">
-        <figure>
-          <img src="images/cover-prototype/angle-1.jpg" alt="Laser cut plywood case shaped like a hardcover book, with a living hinge spine" width="1500" height="2000">
-          <figcaption>Cover prototype 1. Living hinge pattern by Mr Yetihad.</figcaption>
-        </figure>
-        <div>
-          <p>
-            My first big project this year. A chess board that folds in half
-            and slides into a case shaped like a hardcover book, so it can sit
-            on a bookshelf with real books.
-          </p>
-          <p>My 9 week plan and how far I am:</p>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr><th scope="col">Weeks</th><th scope="col">Part</th><th scope="col">Status</th></tr>
-              </thead>
-              <tbody>
-                <tr><td>1 to 2</td><td>Hinge</td><td><span class="tag doing">test 1 done</span></td></tr>
-                <tr><td>3 to 4</td><td>Cover</td><td><span class="tag done">prototype 1 done</span></td></tr>
-                <tr><td>5</td><td>Storage and board</td><td><span class="tag doing">work in progress</span></td></tr>
-                <tr><td>6 to 8</td><td>Pieces and assembly</td><td><span class="tag todo">not yet</span></td></tr>
-                <tr><td>9</td><td>Testing</td><td><span class="tag todo">not yet</span></td></tr>
-              </tbody>
-            </table>
+    <figure class="scene" id="scene" data-step="closed">
+      <div class="stage" aria-hidden="true">
+        <div class="shadow case-shadow"></div>
+        <div class="shadow board-shadow"></div>
+        <div class="case">
+          <div class="face case-bottom"></div>
+          <div class="face case-head"></div>
+          <div class="face case-tail"></div>
+          <div class="face case-spine"></div>
+          <div class="face case-top"></div>
+        </div>
+        <div class="board">
+          <div class="half left">
+            <div class="squares"></div>
+            <div class="edge"></div>
           </div>
-          <p><a class="big-link" href="book-chess-board.html">Read the whole design process <span aria-hidden="true">&rarr;</span></a></p>
+          <div class="half right">
+            <div class="squares"></div>
+            <div class="back"></div>
+            <div class="edge"></div>
+          </div>
         </div>
       </div>
+      <figcaption>The idea: the board folds between columns 4 and 5 and slides into the book case. The board design is still a work in progress.</figcaption>
+    </figure>
+  </section>
+
+  <div class="paper">
+    <section class="intro" aria-labelledby="hi-title">
+      <div class="hi">
+        <h2 id="hi-title">Hi!</h2>
+        <p>
+          This is my DT portfolio. My final project is a chess board that folds
+          like a book. It is still being designed and built, so a lot of this
+          is a work in progress rather than a finished thing.
+        </p>
+      </div>
+      <aside class="now" aria-labelledby="now-title">
+        <h2 id="now-title">What I'm doing right now</h2>
+        <ul>
+          <li>Measuring cover prototype 1 so I can model the case in Fusion</li>
+          <li>Modeling the board with a built in hinge (fold between columns 4 and 5)</li>
+          <li>Printing the rest of my trash holder</li>
+        </ul>
+        <p class="date">Last updated <time datetime="2026-10-14">14 Oct 2026</time></p>
+      </aside>
+    </section>
+
+    <section class="plan" aria-labelledby="plan-title">
+      <div class="plan-head">
+        <h2 id="plan-title">My 9 week plan and how far I am</h2>
+        <ul class="key" aria-label="Status key">
+          <li><span class="swatch done"></span>Done</li>
+          <li><span class="swatch doing"></span>In progress</li>
+          <li><span class="swatch todo"></span>Not yet</li>
+        </ul>
+      </div>
+      <ol class="track">
+        <li class="step doing" style="--span: 2">
+          <span class="weeks">Weeks 1 to 2</span>
+          <span class="part">Hinge</span>
+          <span class="status">Test 1 done</span>
+        </li>
+        <li class="step done" style="--span: 2">
+          <span class="weeks">Weeks 3 to 4</span>
+          <span class="part">Cover</span>
+          <span class="status">Prototype 1 done</span>
+        </li>
+        <li class="step doing" style="--span: 1">
+          <span class="weeks">Week 5</span>
+          <span class="part">Storage and board</span>
+          <span class="status">Work in progress</span>
+        </li>
+        <li class="step todo" style="--span: 3">
+          <span class="weeks">Weeks 6 to 8</span>
+          <span class="part">Pieces and assembly</span>
+          <span class="status">Not yet</span>
+        </li>
+        <li class="step todo" style="--span: 1">
+          <span class="weeks">Week 9</span>
+          <span class="part">Testing</span>
+          <span class="status">Not yet</span>
+        </li>
+      </ol>
+    </section>
+
+    <section class="proto" aria-labelledby="proto-title">
+      <div class="proto-text">
+        <h2 id="proto-title">Cover prototype 1</h2>
+        <p>
+          Laser cut plywood case shaped like a hardcover book. The spine is a
+          living hinge so the wood can bend around the corner. It is the
+          accurate size, but no engraving or grooves yet.
+        </p>
+        <p class="credit">Living hinge pattern by Mr Yetihad.</p>
+        <p><a class="read dark" href="book-chess-board.html#cover">See the cover chapter</a></p>
+      </div>
+      <figure class="shot tall">
+        <img src="images/cover-prototype/angle-1.jpg" alt="Laser cut plywood case shaped like a hardcover book, with a living hinge spine" width="1500" height="2000" loading="lazy" decoding="async">
+      </figure>
+      <figure class="shot">
+        <img src="images/cover-prototype/angle-2.jpg" alt="The plywood book case from another angle, showing the bent living hinge spine" width="1500" height="2000" loading="lazy" decoding="async">
+      </figure>
     </section>
 
     <section class="other" aria-labelledby="other-title">
       <h2 id="other-title">Other stuff I made</h2>
-      <ul class="others">
+      <ul class="shelf">
         <li>
-          <img class="thumb" src="images/trash-holder/v1-fusion.jpg" alt="" width="110" height="80">
-          <div>
-            <h3><a href="side-projects.html">Side Projects</a></h3>
-            <p>These ones I make to improve my life, or I'm just bored.</p>
-          </div>
+          <a href="side-projects.html">
+            <img src="images/trash-holder/v1-fusion.jpg" alt="" width="640" height="440" loading="lazy" decoding="async">
+            <span class="title">Side Projects</span>
+            <span class="blurb">These ones I make to improve my life, or I'm just bored.</span>
+          </a>
         </li>
         <li>
-          <img class="thumb" src="images/phone-stand/angle-1.jpg" alt="" width="110" height="80">
-          <div>
-            <h3><a href="past-work.html">Tutorial Projects</a></h3>
-            <p>Our first projects in DT to understand fusion.</p>
-          </div>
+          <a href="past-work.html">
+            <img src="images/phone-stand/angle-1.jpg" alt="" width="640" height="440" loading="lazy" decoding="async">
+            <span class="title">Tutorial Projects</span>
+            <span class="blurb">Our first projects in DT to understand fusion.</span>
+          </a>
         </li>
         <li>
-          <img class="thumb" src="images/brainstorm/dt-ideas-brainstorm.jpg" alt="" width="110" height="80">
-          <div>
-            <h3><a href="brainstorm.html">My Brainstorming Paper</a></h3>
-            <p>My papers where I wrote ideas.</p>
-          </div>
+          <a href="brainstorm.html">
+            <img src="images/brainstorm/dt-ideas-brainstorm.jpg" alt="" width="640" height="440" loading="lazy" decoding="async">
+            <span class="title">My Brainstorming Paper</span>
+            <span class="blurb">My papers where I wrote ideas.</span>
+          </a>
         </li>
       </ul>
     </section>
-  </main>
+  </div>
+</main>
 
-  <footer>
-    <span>Made by me with HTML and CSS. Code is on <a href="https://github.com/RywnSwn/DT-Portfolio">GitHub</a>.</span>
-    <span class="date"><time datetime="2026-10-14">14 Oct 2026</time></span>
-  </footer>
+<footer class="foot">
+  <p>Made by me with HTML and CSS. Code is on <a href="https://github.com/RywnSwn/DT-Portfolio">GitHub</a>.</p>
+  <p><time datetime="2026-11-02">2 Nov 2026</time></p>
+</footer>
+
+<script src="home.js"></script>
 </body>
 </html>
