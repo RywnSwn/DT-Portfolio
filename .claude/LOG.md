@@ -2,6 +2,11 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-11-02 (2)
+- Did: Mobbin needs a paid plan, so looked at Godly instead (now called recent.design). Picked Gregor Collienne, Harry Atkins, AREA, Silo and Mike Matas as references
+- Did: "Other stuff I made" is now photos scattered like on a workbench around the heading (6 real project photos, they drift a little on scroll, a plain grid on phones). Cover prototype got a small materials list (plywood, laser cutter, living hinge, measurements TBD). Footer has a giant full width "Ryan's DT Portfolio" wordmark
+- Checked: 1440px and 390px, no sideways scroll, all images load, drift off for reduced motion
+
 ## 2026-11-02
 - Did: backed up the home page to `work/website-v5/index-backup-2026-11-02.html` (noindex so Google skips it)
 - Did: for fun, rebuilt `index.html` with a high production look: green cutting mat hero with ruler, 3D CSS plywood book case where the board slides out and unfolds at the column 4/5 fold (button puts it back), 9 week plan as a timeline track, cover prototype photos, other projects with big photos. New `home.css` and `home.js` only used by the home page, other pages untouched. All original text kept. Checked at 1440px and 390px, dark mode, no sideways scroll, all images load, reduced motion skips the animation
