@@ -19,7 +19,7 @@ Tags: [open] not tried, [trying] in progress, [kept] now part of the project, [d
 - [kept] Website v5 "hand coded student" look: full width, black borders, Verdana and Georgia, plain text title, ruler ticks, boxed nav, yellow "right now" note, plan table. Not chess themed site wide. Live from `work/website-v5/` (2026-10-14)
 - [dropped] Orange tilted DT logo box with hard shadow: too generic (2026-10-14)
 - [dropped] Centered floating page box: looks generic (2026-10-14)
-- [trying] "Cutting mat" home page: high production look for fun. Green cutting mat hero with a 3D CSS book case, the board slides out and unfolds. Bricolage Grotesque headings, own `home.css` and `home.js`. Old home kept in `index-backup-2026-11-02.html` (2026-11-02)
+- [trying] "Cutting mat" home page: high production look for fun. Green cutting mat hero, giant "Things I design and make." headline, row of project photos with technical drawing dimension lines. The 3D book case animation was dropped (user: too common layout, too chess focused) (2026-11-02). Bricolage Grotesque headings, own `home.css` and `home.js`. Old home kept in `index-backup-2026-11-02.html` (2026-11-02)
 - [dropped] Chess themed site (checkerboard background, chess logo): chess is only the current project, more will come (2026-10-14)
 - [kept] Add Bear Fix to the Side Projects page, with before/after screenshots (done 2026-10-14)
 

@@ -2,6 +2,11 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-11-02 (3)
+- Did: user didn't like the top half: text left and picture right is too common, the 3D book animation, and too chess focused. Replaced it: giant full width headline "Things I design and make." on the cutting mat, then a row of 5 real project photos (Book Chess Board, Hinge test 1, Trash holder, Bear fix, Phone stand). Each has a yellow dimension line above it like a technical drawing, labelled with how it was made (Laser cut, Fusion 360, Blender, 3D printed). Swipe row on phones
+- Did: removed all the 3D book code from `home.css` and `home.js`
+- Checked: 1440, 1024 and 390px, no sideways scroll, no JS errors
+
 ## 2026-11-02 (2)
 - Did: Mobbin needs a paid plan, so looked at Godly instead (now called recent.design). Picked Gregor Collienne, Harry Atkins, AREA, Silo and Mike Matas as references
 - Did: "Other stuff I made" is now photos scattered like on a workbench around the heading (6 real project photos, they drift a little on scroll, a plain grid on phones). Cover prototype got a small materials list (plywood, laser cutter, living hinge, measurements TBD). Footer has a giant full width "Ryan's DT Portfolio" wordmark
