@@ -8,6 +8,7 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 - Real due dates: TBD
 
 ## Where it's at
+- 2026-11-16 (user): the book chess board is done and it folds. All that's left is modeling the pieces. No photos of the finished board in the repo yet (newest are cover prototype 1 and the hinge test 1 Fusion screenshot). Details of the final hinge, size and case TBD
 - Cover Prototype 1 done: laser cut plywood case, living hinge spine (pattern by Mr Yetihad), accurate size, no engraving or grooves. Measurements TBD (`work/chess-board/2026-09-25-cover-prototype-1.md`)
 - Board: work in progress, being modeled in Fusion. Hard part (user): hinge has to be small and the board has to hold pieces at the same time. Built-in hinge, type TBD. Fold between columns 4 and 5
 - Hinge Test 1 done (print-in-place knuckle hinge), live joint sim didn't work (`work/chess-board/hinge-test-1.md`)
@@ -21,6 +22,8 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 - Past work written up: phone stand, name tag, iPhone dummy (`work/past-work/`)
 
 ## Next steps
+- Get photos of the finished folding board, then update the Book Chess Board page and the home page plan table (hinge, cover, storage and board are done, pieces next)
+- Model the pieces
 0. User is reading through the website and rewriting text so it sounds like them. Apply their edits exactly (Side Projects page: Bear Fix intro, Bear Fix next-time note and Why a clamp done 2026-10-14)
 1. Add cover measurements, then model the case in Fusion and design the engraving and grooves there
 2. Pick square size, then work out board size to fit inside the case with a sliding gap

@@ -2,6 +2,9 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-11-16 (3)
+- Note: user says the chess book is done and folds, only the pieces are left to model. No new photos yet, asked for them
+
 ## 2026-11-16 (2)
 - Did: undid the cutting mat home page (user: looks good but doesn't match the rest). Restored the backup as `index.html`, deleted `home.css`, `home.js` and the backup file
 - Did: added the Chinese class frame to the Side Projects page (in progress, "Oiling next"), with both photos and the user's wording from the brief. Added it to the home "right now" note, updated sitemap dates
