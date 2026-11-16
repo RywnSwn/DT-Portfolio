@@ -1,4 +1,4 @@
-# State (updated 2026-11-02)
+# State (updated 2026-11-16)
 
 ## Goal
 Book Chess Board for DT: a chess board that folds in half and slides into a static case shaped like a hardcover book, so it sits on a bookshelf. Plus a portfolio website (GitHub Pages) showing the whole design process.
@@ -17,6 +17,7 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 - Home page redone 2026-11-02 just for fun with a high production "cutting mat" look: giant headline, project photo row with dimension lines, scattered workbench photos, big footer name (`index.html`, `home.css`, `home.js`). Old home page backed up as `work/website-v5/index-backup-2026-11-02.html`. User still deciding which one to keep
 - Side project: trash holder for used tissues. One clamp printed, tub modeled, second clamp + 2 screws still to print. Fusion screenshots of v1, the cover and the 2 screws added (2026-10-14) (`work/side-projects/trash-holder.md`)
 - Side project: Bear Fix, fixed a classmate's toy model in Blender, before/after logged (`work/side-projects/bear-fix.md`). remeshed, subdivide looked bad, sculpting skipped
+- Side project: Chinese class frame for Wu Laoshi (made with Dennis). Cut, glued, nailed with plates, sanded buttery smooth. Oiling 2026-11-17, then a "Class of 2030" plaque in DT. Brief in `sources/chinese-frame-brief.md`, photos in `sources/images/chinese-frame/`
 - Past work written up: phone stand, name tag, iPhone dummy (`work/past-work/`)
 
 ## Next steps
@@ -27,7 +28,8 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 4. Update the design brief: wood is crossed out but the cover is plywood. Fill Success Criteria 2.2 to 2.4 and Inspiration
 6. Turn on GitHub Pages (Settings > Pages > Source: GitHub Actions) and check the live site.
 7. Trash holder: print the tub, second clamp and screws, send photos and how the fit went
-8. Credit the iPhone dummy model source and creator, add name tag photos
+8. Chinese frame: oil it, make the plaque, add photos of the oiled frame and the plaque
+9. Credit the iPhone dummy model source and creator, add name tag photos
 
 ## Open questions for the user
 - Cover measurements (outside size, inside opening, plywood thickness)?
@@ -35,3 +37,4 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 - Board hinge: living hinge strip, printed knuckle hinge, or bought hinges?
 - How much sliding gap between board and case?
 - Due dates for the project and the portfolio?
+- Chinese frame: exact size, wood type, oil type, name of the back and forth sander, date it gets given?

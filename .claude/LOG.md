@@ -2,6 +2,10 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-11-16
+- Did: new side project, Chinese class frame (present for Wu Laoshi). Asked the user design brief questions (they asked for them) and wrote `sources/chinese-frame-brief.md` in their wording, same headings as the chess brief. Saved 2 photos to `sources/images/chinese-frame/`
+- Next: oiling tomorrow, then the "Class of 2030" plaque
+
 ## 2026-11-02 (3)
 - Did: user didn't like the top half: text left and picture right is too common, the 3D book animation, and too chess focused. Replaced it: giant full width headline "Things I design and make." on the cutting mat, then a row of 5 real project photos (Book Chess Board, Hinge test 1, Trash holder, Bear fix, Phone stand). Each has a yellow dimension line above it like a technical drawing, labelled with how it was made (Laser cut, Fusion 360, Blender, 3D printed). Swipe row on phones
 - Did: removed all the 3D book code from `home.css` and `home.js`
