@@ -2,6 +2,11 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-11-16 (2)
+- Did: undid the cutting mat home page (user: looks good but doesn't match the rest). Restored the backup as `index.html`, deleted `home.css`, `home.js` and the backup file
+- Did: added the Chinese class frame to the Side Projects page (in progress, "Oiling next"), with both photos and the user's wording from the brief. Added it to the home "right now" note, updated sitemap dates
+- Checked: 1440 and 390px, no sideways scroll, all images load, no JS errors
+
 ## 2026-11-16
 - Did: new side project, Chinese class frame (present for Wu Laoshi). Asked the user design brief questions (they asked for them) and wrote `sources/chinese-frame-brief.md` in their wording, same headings as the chess brief. Saved 2 photos to `sources/images/chinese-frame/`
 - Next: oiling tomorrow, then the "Class of 2030" plaque

@@ -14,10 +14,10 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 - Design story writeup roughly covers steps 1 to 6 (`work/chess-board/design-story.md`)
 - Old v2 site folder `work/website/` deleted 2026-10-19
 - Website v5 is the live site (2026-10-14): `work/website-v5/`, published by the Pages workflow at rywnswn.github.io/DT-Portfolio. Hand coded student look, full width, not chess themed, every page modular (main column + sidebar, sections side by side). Fonts: Atkinson Hyperlegible Next (body), Atkinson Hyperlegible Mono (notes), Georgia (headings). Bear Fix is on the Side Projects page. SEO meta, canonical, Open Graph, `sitemap.xml`, `robots.txt`, semantic landmarks, alt text and sizes on every image, contrast checked. Images use `images/...` (workflow copies `sources/images`), so opening the files straight from the repo shows no photos. Google Search Console verification file `googlebdcb4a83493c9265.html` is in the site root, keep it
-- Home page redone 2026-11-02 just for fun with a high production "cutting mat" look: giant headline, project photo row with dimension lines, scattered workbench photos, big footer name (`index.html`, `home.css`, `home.js`). Old home page backed up as `work/website-v5/index-backup-2026-11-02.html`. User still deciding which one to keep
+- Home page is back to the original plain v5 look (2026-11-16). The "cutting mat" version was undone because it did not match the other pages (still in git history, commit b50d2f0)
 - Side project: trash holder for used tissues. One clamp printed, tub modeled, second clamp + 2 screws still to print. Fusion screenshots of v1, the cover and the 2 screws added (2026-10-14) (`work/side-projects/trash-holder.md`)
 - Side project: Bear Fix, fixed a classmate's toy model in Blender, before/after logged (`work/side-projects/bear-fix.md`). remeshed, subdivide looked bad, sculpting skipped
-- Side project: Chinese class frame for Wu Laoshi (made with Dennis). Cut, glued, nailed with plates, sanded buttery smooth. Oiling 2026-11-17, then a "Class of 2030" plaque in DT. Brief in `sources/chinese-frame-brief.md`, photos in `sources/images/chinese-frame/`
+- Side project: Chinese class frame for Wu Laoshi (made with Dennis). Cut, glued, nailed with plates, sanded buttery smooth. Oiling 2026-11-17, then a "Class of 2030" plaque in DT. On the Side Projects page (tag "Oiling next") and in the home "right now" note. Brief in `sources/chinese-frame-brief.md`, photos in `sources/images/chinese-frame/`
 - Past work written up: phone stand, name tag, iPhone dummy (`work/past-work/`)
 
 ## Next steps
@@ -28,7 +28,7 @@ Book Chess Board for DT: a chess board that folds in half and slides into a stat
 4. Update the design brief: wood is crossed out but the cover is plywood. Fill Success Criteria 2.2 to 2.4 and Inspiration
 6. Turn on GitHub Pages (Settings > Pages > Source: GitHub Actions) and check the live site.
 7. Trash holder: print the tub, second clamp and screws, send photos and how the fit went
-8. Chinese frame: oil it, make the plaque, add photos of the oiled frame and the plaque
+8. Chinese frame: oil it, make the plaque, add photos of the oiled frame and the plaque, update the tag on the Side Projects page and the "right now" note
 9. Credit the iPhone dummy model source and creator, add name tag photos
 
 ## Open questions for the user
