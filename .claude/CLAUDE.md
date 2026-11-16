@@ -12,7 +12,7 @@ This repo is the memory for my Design Technology (DT) portfolio. It uses the **p
 New rules and preferences go in `.claude/RULES.md` as a dated line, not in this file.
 
 ## Every session
-1. `git pull origin main`
+1. `git fetch origin main && git checkout -B main origin/main` (cloud sessions start on a `claude/...` branch, switch to `main` so nothing goes to an extra branch and the "unpushed commits" check passes)
 2. Read `.claude/RULES.md`, `.claude/STATE.md`, and the newest ~5 entries of `.claude/LOG.md`.
 3. Open files in `sources/` or `work/` only when the task needs them.
 4. Before the session ends: rewrite `.claude/STATE.md`, add one entry to the top of `.claude/LOG.md`, update `.claude/IDEAS.md` tags, commit and push to `main`.
