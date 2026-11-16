@@ -2,6 +2,9 @@
 
 One short entry per session. Newest at the top. Only add, never rewrite old entries.
 
+## 2026-11-16 (4)
+- Did: the cloud stop hook kept saying "unpushed commits" because the session started on a claude/ branch. Switched to `main` and added a rule to do that every session
+
 ## 2026-11-16 (3)
 - Note: user says the chess book is done and folds, only the pieces are left to model. No new photos yet, asked for them
 
